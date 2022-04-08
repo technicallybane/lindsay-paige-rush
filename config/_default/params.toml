@@ -42,10 +42,10 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [widgets]
 sidebar = ["search", "about-me", "promotion", "authors", "subscription", "categories", "recent-post", "tags", "social"]
 [[social]]
-icon = "fa-email"
-link = "/contact"
-name = "Email"
-[[social]]
 icon = "fab fa-linkedin-in"
 link = "#"
 name = "linkedin"
+[[social]]
+icon = "fa-email"
+link = "/contact"
+name = "Email"
