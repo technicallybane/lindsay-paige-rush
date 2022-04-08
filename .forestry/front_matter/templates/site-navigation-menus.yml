@@ -8,7 +8,7 @@ fields:
   fields:
   - type: number
     name: weight
-    label: weight
+    label: Sort Order
   - type: text
     name: name
     label: name
