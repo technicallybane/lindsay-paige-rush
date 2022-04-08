@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: params
-  label: params
+  label: Colors & Fonts
   fields:
   - type: field_group
     name: variables
@@ -73,3 +73,4 @@ fields:
       - type: text
         name: link
         label: link
+    hidden: true
