@@ -4,25 +4,31 @@ hide_body: true
 fields:
 - type: text
   name: baseURL
-  label: baseURL
+  label: Website URL
 - type: text
   name: title
-  label: title
+  label: Website Title
 - type: text
   name: theme
   label: theme
+  hidden: true
 - type: text
   name: paginate
-  label: paginate
+  label: Pagination
+  description: How many pages deep do you want to display content on the Home?
 - type: text
   name: summaryLength
-  label: summaryLength
+  label: Summary Length
+  description: How long of a summary do you want to pull into each item?
 - type: text
   name: googleAnalytics
-  label: googleAnalytics
+  label: Google Analytics
+  description: Paste in the ID for your Google Analytics account. It'll be something
+    like UA-12345-67
 - type: text
   name: disqusShortname
   label: disqusShortname
+  hidden: true
 - type: list
   name: disableLanguages
   label: disableLanguages
@@ -33,6 +39,8 @@ fields:
   - type: number
     name: quality
     label: quality
+    hidden: true
+  hidden: true
 - type: field_group
   name: outputs
   label: outputs
@@ -40,6 +48,8 @@ fields:
   - type: list
     name: home
     label: home
+    hidden: true
+  hidden: true
 - type: field_group
   name: markup
   label: markup
@@ -55,6 +65,8 @@ fields:
       - type: boolean
         name: unsafe
         label: unsafe
+        hidden: true
+      hidden: true
     - type: field_group
       name: extensions
       label: extensions
@@ -62,6 +74,10 @@ fields:
       - type: boolean
         name: footnote
         label: footnote
+        hidden: true
+      hidden: true
+    hidden: true
+  hidden: true
 - type: field_group
   name: mediaTypes
   label: mediaTypes
@@ -73,6 +89,8 @@ fields:
     - type: list
       name: suffixes
       label: suffixes
+      hidden: true
+    hidden: true
   - type: field_group
     name: text/netlify
     label: text/netlify
@@ -80,9 +98,12 @@ fields:
     - type: text
       name: delimiter
       label: delimiter
+      hidden: true
     - type: list
       name: suffixes
       label: suffixes
+      hidden: true
+    hidden: true
 - type: field_group
   name: outputFormats
   label: outputFormats
@@ -94,6 +115,10 @@ fields:
     - type: text
       name: mediaType
       label: mediaType
+      hidden: true
     - type: text
       name: rel
       label: rel
+      hidden: true
+    hidden: true
+  hidden: true
