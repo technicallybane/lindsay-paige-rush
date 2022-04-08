@@ -7,7 +7,6 @@ sections:
 - type: document
   path: themes/reader-hugo/config.toml
   label: Options
-  match: "**/*"
 - type: directory
   path: config/_default
   label: Site Settings
