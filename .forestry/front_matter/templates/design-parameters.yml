@@ -1,0 +1,153 @@
+---
+label: Design Parameters
+hide_body: true
+fields:
+- type: file
+  name: favicon
+  label: favicon
+- type: file
+  name: logo
+  label: logo
+- type: text
+  name: logo_width
+  label: logo_width
+- type: text
+  name: logo_text
+  label: logo_text
+- type: text
+  name: menu_align
+  label: menu_align
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
+- type: file
+  name: image
+  label: image
+- type: text
+  name: contact_form_action
+  label: contact_form_action
+- type: text
+  name: custom_script
+  label: custom_script
+- type: boolean
+  name: search
+  label: search
+- type: boolean
+  name: banner
+  label: banner
+- type: boolean
+  name: featured_post
+  label: featured_post
+- type: text
+  name: post_layout
+  label: post_layout
+- type: text
+  name: sidebar
+  label: sidebar
+- type: text
+  name: main_taxonomy
+  label: main_taxonomy
+- type: field_group
+  name: preloader
+  label: preloader
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: preloader
+    label: preloader
+- type: field_group
+  name: background_shapes
+  label: background_shapes
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: file
+    name: banner_bg_image
+    label: banner_bg_image
+  - type: file
+    name: header_bg_image
+    label: header_bg_image
+  - type: file
+    name: wave_bg_image
+    label: wave_bg_image
+  - type: file
+    name: footer_bg_image
+    label: footer_bg_image
+- type: field_group
+  name: subscription
+  label: subscription
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: mailchimp_form_action
+    label: mailchimp_form_action
+  - type: text
+    name: mailchimp_form_name
+    label: mailchimp_form_name
+- type: field_group
+  name: instafeed
+  label: instafeed
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: access_token
+    label: access_token
+- type: field_group
+  name: promotion
+  label: promotion
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: button_label
+    label: button_label
+  - type: text
+    name: button_link
+    label: button_link
+- type: field_group
+  name: cookies
+  label: cookies
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: number
+    name: expire_days
+    label: expire_days
+- type: field_group
+  name: widgets
+  label: widgets
+  fields:
+  - type: list
+    name: sidebar
+    label: sidebar
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: link
+    label: link
