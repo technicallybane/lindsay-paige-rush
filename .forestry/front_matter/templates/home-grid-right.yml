@@ -20,7 +20,7 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: enabled
   - type: file
     name: banner_bg_image
     label: banner_bg_image
