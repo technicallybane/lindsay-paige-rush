@@ -4,17 +4,9 @@ auto_deploy: false
 admin_path: "/editor"
 webhook_url: 
 sections:
-- type: document
-  path: layouts/partials/widgets/authors.html
-  label: Bio
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/english
-  label: English
+  path: config/_default
+  label: Site Settings
   create: all
   match: "**/*"
 upload_dir: static/images
