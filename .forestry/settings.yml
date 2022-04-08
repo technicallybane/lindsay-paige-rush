@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: layouts/partials/widgets/authors.html
-  label: Author
+  label: Bio
 - type: directory
   path: content
   label: Pages
