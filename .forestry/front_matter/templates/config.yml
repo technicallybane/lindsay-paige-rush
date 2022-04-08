@@ -32,6 +32,11 @@ fields:
 - type: list
   name: disableLanguages
   label: disableLanguages
+  config:
+    use_select: false
+    source:
+      type: simple
+  hidden: true
 - type: field_group
   name: imaging
   label: imaging
