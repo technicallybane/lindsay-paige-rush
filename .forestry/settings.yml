@@ -7,7 +7,6 @@ sections:
 - type: document
   path: layouts/partials/widgets/authors.html
   label: Author
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
