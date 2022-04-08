@@ -46,6 +46,6 @@ icon = "fab fa-linkedin-in"
 link = "#"
 name = "linkedin"
 [[social]]
-icon = "fa-email"
+icon = "far fa-envelope"
 link = "/contact"
 name = "Email"
