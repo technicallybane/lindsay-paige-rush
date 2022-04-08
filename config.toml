@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "lindsay-paige-rush.netlify.app/"
 title = "Reader | Hugo Personal Blog Template"
 theme = "reader-hugo"
 # post pagination
