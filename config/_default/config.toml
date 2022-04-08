@@ -1,11 +1,11 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://lindsay-paige-rush.netlify.app/"
 disableLanguages = []
 disqusShortname = "themefisher-template"
 googleAnalytics = ""
 paginate = "6"
 summaryLength = "10"
 theme = "reader-hugo"
-title = "Reader | Hugo Personal Blog Template"
+title = "Lindsay Page Rush | Copywriter, Brand Strategist, Storyteller "
 [imaging]
 quality = 100
 [markup.goldmark.extensions]
