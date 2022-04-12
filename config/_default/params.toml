@@ -16,7 +16,7 @@ search = true
 sidebar = "right"
 [background_shapes]
 banner_bg_image = "images/backgrounds/banner-bg.svg"
-enable = true
+enable = false
 footer_bg_image = "images/backgrounds/footer-bg.svg"
 header_bg_image = "images/backgrounds/header-bg.svg"
 wave_bg_image = "images/backgrounds/wave-bg.svg"
