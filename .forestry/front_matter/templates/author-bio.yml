@@ -9,60 +9,34 @@ fields:
   - type: text
     name: languageName
     label: languageName
+    hidden: true
   - type: text
     name: languageCode
     label: languageCode
+    hidden: true
   - type: text
     name: contentDir
     label: contentDir
+    hidden: true
   - type: number
     name: weight
     label: weight
+    hidden: true
   - type: text
     name: heading
-    label: heading
+    label: Site headline
   - type: field_group
     name: about_me
-    label: about_me
+    label: About
     fields:
     - type: text
       name: title
-      label: title
+      label: Welcome Message
     - type: file
       name: image
-      label: image
+      label: Bio Photo
     - type: textarea
       name: bio
-      label: bio
-- type: field_group
-  name: fr
-  label: fr
-  fields:
-  - type: text
-    name: languageName
-    label: languageName
-  - type: text
-    name: languageCode
-    label: languageCode
-  - type: text
-    name: contentDir
-    label: contentDir
-  - type: number
-    name: weight
-    label: weight
-  - type: text
-    name: heading
-    label: heading
-  - type: field_group
-    name: about_me
-    label: about_me
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: file
-      name: image
-      label: image
-    - type: textarea
-      name: bio
-      label: bio
+      label: Bio
+    hidden: true
+  hidden: true
