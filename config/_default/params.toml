@@ -1,5 +1,5 @@
 author = "Lindsay"
-banner = false
+banner = true
 contact_form_action = "#"
 custom_script = ""
 description = "This is meta description"
