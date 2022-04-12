@@ -38,7 +38,7 @@ fields:
     - type: textarea
       name: bio
       label: Bio
-    hidden: true
+    hidden: false
   hidden: false
 pages:
 - config/_default/languages.toml
