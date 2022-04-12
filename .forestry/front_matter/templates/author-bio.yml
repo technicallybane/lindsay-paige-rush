@@ -1,0 +1,68 @@
+---
+label: Author Bio
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: languageName
+    label: languageName
+  - type: text
+    name: languageCode
+    label: languageCode
+  - type: text
+    name: contentDir
+    label: contentDir
+  - type: number
+    name: weight
+    label: weight
+  - type: text
+    name: heading
+    label: heading
+  - type: field_group
+    name: about_me
+    label: about_me
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: file
+      name: image
+      label: image
+    - type: textarea
+      name: bio
+      label: bio
+- type: field_group
+  name: fr
+  label: fr
+  fields:
+  - type: text
+    name: languageName
+    label: languageName
+  - type: text
+    name: languageCode
+    label: languageCode
+  - type: text
+    name: contentDir
+    label: contentDir
+  - type: number
+    name: weight
+    label: weight
+  - type: text
+    name: heading
+    label: heading
+  - type: field_group
+    name: about_me
+    label: about_me
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: file
+      name: image
+      label: image
+    - type: textarea
+      name: bio
+      label: bio
