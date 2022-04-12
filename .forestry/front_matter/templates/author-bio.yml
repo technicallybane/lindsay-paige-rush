@@ -40,3 +40,5 @@ fields:
       label: Bio
     hidden: true
   hidden: true
+pages:
+- config/_default/languages.toml
