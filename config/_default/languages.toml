@@ -1,6 +1,6 @@
 [en]
 contentDir = "content/english"
-heading = "What Would You <br> Like To Read Today?"
+heading = ""
 languageCode = "en-us"
 languageName = "En"
 weight = 1
