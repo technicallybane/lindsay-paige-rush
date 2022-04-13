@@ -76,4 +76,3 @@ fields:
     hidden: true
 pages:
 - config.toml
-- themes/reader-hugo/config.toml
