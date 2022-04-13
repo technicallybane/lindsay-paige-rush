@@ -6,7 +6,7 @@ languageName = "En"
 weight = 1
 [en.about_me]
 bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel in in donec iaculis tempus odio nunc laoreet . Libero ullamcorper."
-image = "/images/lindsay-paige-rush.jpg"
+image = "/images/lindsay-paige-rush.png"
 title = "Hi, I am Alex!"
 [fr]
 contentDir = "content/french"
