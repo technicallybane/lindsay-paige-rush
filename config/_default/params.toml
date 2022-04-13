@@ -7,11 +7,11 @@ favicon = "images/favicon.png"
 featured_post = false
 image = "images/logo.png"
 logo = "images/logo.png"
-logo_text = "Reader"
+logo_text = "Lindsay Paige Rush"
 logo_width = "100x"
 main_taxonomy = "tag"
 menu_align = "center"
-post_layout = "full"
+post_layout = "grid"
 search = true
 sidebar = "right"
 [background_shapes]
