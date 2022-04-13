@@ -6,7 +6,7 @@ languageName = "En"
 weight = 1
 [en.about_me]
 bio = "Hey there! I am a copywriter with in-house and agency experience developing and delivering creative content. I'm passionate about telling stories, exploring audience insights and crafting memorable messaging. Committed to the creative process, I enjoy bringing ideas to life. "
-image = "static/images/lindsay-paige-rush.png"
+image = "images/lindsay-paige-rush.png"
 title = "Lindsay Paige Rush"
 [fr]
 contentDir = "content/french"
