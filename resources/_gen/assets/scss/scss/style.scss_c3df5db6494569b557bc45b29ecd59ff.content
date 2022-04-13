@@ -1,7 +1,7 @@
 /*  typography */
 body {
   line-height: 1.7;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   color: #555;
   font-size: 15px; }
@@ -11,11 +11,11 @@ p {
   color: #555;
   font-size: 15px;
   line-height: 1.7;
-  font-family: "Nunito Sans", sans-serif; }
+  font-family: "Playfair Display", serif; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #333;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 800;
   line-height: 1.2; }
 
@@ -40,7 +40,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 14px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   text-transform: uppercase;
   padding: 12px 22px;
@@ -273,7 +273,7 @@ mark {
   margin: 0; }
   .nav-item .nav-link {
     text-transform: capitalize;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 600; }
 
 .navbar-white .navbar-nav .nav-link {
