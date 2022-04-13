@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elements on Lindsay Page Rush | Copywriter, Brand Strategist, Storyteller </title>
+    <link>https://lindsay-paige-rush.netlify.app/tags/elements/</link>
+    <description>Recent content in elements on Lindsay Page Rush | Copywriter, Brand Strategist, Storyteller </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://lindsay-paige-rush.netlify.app/tags/elements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elements That You Can Use In This Template.</title>
+      <link>https://lindsay-paige-rush.netlify.app/post/elements/</link>
+      <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://lindsay-paige-rush.netlify.app/post/elements/</guid>
+      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+    </item>
+    
+  </channel>
+</rss>

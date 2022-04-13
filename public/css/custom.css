@@ -1,0 +1,7 @@
+.banner.no-shapes {
+  padding: 115px 0 80px;
+}
+.bio-image img {
+  border-radius: 4px;
+  border-color: linear-gradient(90deg, rgba(162,186,210,1) 0%, rgba(247,186,247,1) 50%, rgba(157,214,190,1) 100%);
+}
