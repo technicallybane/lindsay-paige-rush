@@ -1,80 +1,27 @@
-######################## default configuration ####################
 baseURL = "lindsay-paige-rush.netlify.app/"
-title = "Reader | Hugo Personal Blog Template"
-theme = "reader-hugo"
-# post pagination
+disableLanguages = [true]
+disqusShortname = "themefisher-template"
+googleAnalytics = ""
 paginate = "6"
-# post excerpt
 summaryLength = "10"
-# google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = [true] # desable language from here
-
-# Image Processing Config
+theme = "reader-hugo"
+title = "Reader | Hugo Personal Blog Template"
 [imaging]
 quality = 100
-
-
-############################# Outputs ##############################
-[outputs]
-home = ["HTML", "RSS", "JSON", "WebAppManifest"]
-
-[markup]
-[markup.goldmark.renderer]
-unsafe= true
 [markup.goldmark.extensions]
-footnote= true
-
-[mediaTypes]
+footnote = true
+[markup.goldmark.renderer]
+unsafe = true
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
-
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffixes = [""]
-
-[outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
-
-# This file is for render site varibles and plugins
-# don't remove this file.
-# The presence of this file is for compatibility with Blogdown and Forestry.
-#
-# The actual configuration files are stored in the `config/_default/` folder.
-
-
-######################### site variables ##############################
-# customize your color and font from here.
-[params.variables]
-primary_color = "#4FD675"
-secondary_color = "#4fc3d6"
-text_color = "#555"
-text_color_dark = "#333"
-text_color_light = "#777"
-body_color = "#fff"
-border_color = "#EBEBEB"
-black = "#000"
-white = "#fff"
-light = "#F9F9F9"
-
-# font variable
-# Give your font name from google font. add font weight using ":wght@" and separate by ";"
-# example: "Work Sans:wght@400;500;600"
-# primary_font = "Nunito Sans:wght@400;600;700;800"
-primary_font = "Playfair Display:ital,wght@0,400;0,600;0,700;0,800;1,800"
-primary_font_type = "serif" # [serif/sans-serif]
-secondary_font = "Lato:wght@300"
-secondary_font_type = "serif" # [serif/sans-serif]
-icon_font = "Font Awesome 5 Free"
-
-
-############################# Plugins ##############################
-# CSS Plugins
+[outputs]
+home = ["HTML", "RSS", "JSON", "WebAppManifest"]
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -87,8 +34,6 @@ link = "plugins/font-awesome/brands.css"
 link = "plugins/font-awesome/solid.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/regular.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
@@ -105,3 +50,19 @@ link = "plugins/search/mark.js"
 link = "plugins/search/search.js"
 [[params.plugins.js]]
 link = "plugins/webfont-loader/webfont-loader-2.min.js"
+[params.variables]
+black = "#000"
+body_color = "#fff"
+border_color = "#EBEBEB"
+icon_font = "Font Awesome 5 Free"
+light = "#F9F9F9"
+primary_color = "#4FD675"
+primary_font = "Playfair Display:ital,wght@0,400;0,600;0,700;0,800;1,800"
+primary_font_type = "serif"
+secondary_color = "#4fc3d6"
+secondary_font = "Lato:wght@300"
+secondary_font_type = "serif"
+text_color = "#555"
+text_color_dark = "#333"
+text_color_light = "#777"
+white = "#fff"
