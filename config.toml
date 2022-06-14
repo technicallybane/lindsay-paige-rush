@@ -1,10 +1,10 @@
-baseURL = "lindsay-paige-rush.netlify.app/"
+baseURL = "http:localhost:1313/"
 disableLanguages = [true]
 disqusShortname = "themefisher-template"
 googleAnalytics = ""
 paginate = "6"
 summaryLength = "10"
-theme = "reader-hugo"
+theme = "the-real-lindsay"
 title = "Reader | Hugo Personal Blog Template"
 [imaging]
 quality = 100
@@ -41,8 +41,6 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-link = "plugins/instafeed/instafeed.min.js"
-[[params.plugins.js]]
 link = "plugins/search/fuse.min.js"
 [[params.plugins.js]]
 link = "plugins/search/mark.js"
@@ -57,8 +55,8 @@ border_color = "#EBEBEB"
 icon_font = "Font Awesome 5 Free"
 light = "#F9F9F9"
 primary_color = "#4FD675"
-primary_font = "Playfair Display:ital,wght@0,400;0,600;0,700;0,800;1,800"
-primary_font_type = "serif"
+primary_font = "Julius Sans One"
+primary_font_type = "sans-serif"
 secondary_color = "#4fc3d6"
 secondary_font = "Lato:wght@300"
 secondary_font_type = "serif"

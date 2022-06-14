@@ -1,90 +1,48 @@
-{{ "<!-- navigation -->" | safeHTML }}
-<header class="navigation fixed-top">
-  <div class="container">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-white">
-      <a class="navbar-brand order-1" href="{{ site.BaseURL | relLangURL }}">
-        {{ partial "logo.html" . }}
-      </a>
+<!-- MOBILE MENU -->
+<div class="dizme_tm_mobile_menu">
+  <div class="mobile_menu_inner">
+    <div class="mobile_in">
+      <div class="logo">
+        <a href="/"><img src="img/logo/logo.png" alt="" /></a>
+      </div>
+      <div class="trigger">
+        <div class="hamburger hamburger--slider">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <div class="dropdown_inner">
+      <ul class="anchor_nav">
+        <li class="current"><a href="#home">Back to Top</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="download_cv"><a href="img/cv/1.jpg" download><span>Resume <i class="icon-download"></i></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- /MOBILE MENU -->
 
-      {{ if eq site.Params.menu_align "left"}}
-      {{ .Scratch.Set "align" "mr-auto"}}
-      {{ .Scratch.Set "textAlign" "text-left"}}
-      {{ else if eq site.Params.menu_align "right"}}
-      {{ .Scratch.Set "align" "ml-auto"}}
-      {{ .Scratch.Set "textAlign" "text-right"}}
-      {{ else if eq site.Params.menu_align "center"}}
-      {{ .Scratch.Set "align" "mx-auto"}}
-      {{ .Scratch.Set "textAlign" "text-center"}}
-      {{ end }}
-      <div class="collapse navbar-collapse {{.Scratch.Get `textAlign`}} order-lg-2 order-3" id="navigation">
-        <ul class="navbar-nav {{.Scratch.Get `align`}}">
-          <!-- menu active -->
-          {{ $currentPage := . }}
-          {{ range site.Menus.main }}
-          {{ $menuURL := .URL | absLangURL }}
-          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-          {{ $active := eq $menuURL $pageURL }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              {{ .Name }} <i class="fas fa-angle-down ml-1"></i>
-            </a>
-            <div class="dropdown-menu">
-              {{ range .Children }}
-              <a class="dropdown-item " {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
-              {{ end }}
-            </div>
-          </li>
-          {{ else }}
-          <li class="nav-item ">
-            <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-            href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
-          </li>
-          {{ end }}
-          {{ end }}
+<!-- HEADER -->
+<div class="dizme_tm_header">
+  <div class="container">
+    <div class="inner">
+      <div class="logo">
+        <a href="#"><img src="img/logo/logo.png" alt="" /></a>
+      </div>
+      <div class="menu">
+        <ul class="anchor_nav">
+          <li class="current"><a href="#home">Back to Top</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="download_cv"><a href="img/cv/1.jpg" download><span>Resume <i class="icon-download"></i></span></a></li>
         </ul>
       </div>
-
-      <div class="order-2 order-lg-3 d-flex align-items-center">
-        <!-- Language List -->
-        {{ if .IsTranslated }}
-        <select class="m-2 border-0 bg-transparent" id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-          {{ $translation := .}}
-          {{ range $siteLanguages }}
-          {{ if eq $translation.Lang .Lang }}
-          {{ $selected := false }}
-          {{ if eq $pageLang .Lang}}
-          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-          {{ end }}
-        </select>
-        {{ end }}
-
-        {{ if site.Params.search }}
-        {{ "<!-- search -->" | safeHTML }}
-        <form class="search-bar" action="{{ `search`| relLangURL }}">
-          <input id="search-query" name="s" type="search"
-            placeholder="{{ i18n `search_placeholder`}}">
-        </form>
-        {{ end }}
-
-        <!-- collapse button -->
-        <button class="navbar-toggler border-0 order-1" type="button" data-toggle="collapse" data-target="#navigation" aria-label="Navbar Button">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-    </nav>
+    </div>
   </div>
-</header>
-{{ "<!-- /navigation -->" | safeHTML }}
+</div>
+<!-- /HEADER -->
