@@ -2720,7 +2720,7 @@ input[type=number] {
 	.dizme_tm_header{display: none;}
 	.dizme_tm_mobile_menu{display: block; background-color: #fff; opacity: .9;}
 	.dizme_tm_portfolio .portfolio_filter ul{display: none;}
-	.dizme_tm_portfolio .portfolio_filter select{display: inline-block;;}
+	.dizme_tm_portfolio .portfolio_filter select{display: inline-block; font-size: 18px;}
 	.dizme_tm_portfolio .portfolio_list .main{border-radius: 12px;}
 	.dizme_tm_portfolio .mobile_title{display: block;}
 	.dizme_tm_portfolio_titles.visible{opacity: 0;visibility: hidden;}
@@ -2842,6 +2842,9 @@ input[type=number] {
 }
 @media (max-width: 420px) {
 	.dizme_tm_hero {height: 800px;}
+}
+@media (max-width: 387px) {
+	.dizme_tm_hero {height: 880px;}
 }
 @media (max-width: 340px) {
 	.dizme_tm_hero {height: 960px;}
