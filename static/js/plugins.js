@@ -212,7 +212,7 @@
 			var offset 		= $(target).offset().top;
 			var topbar		= jQuery('.dizme_tm_header').outerHeight();
 			var ww			= jQuery(window).width();
-			
+
 			if(ww >= 1040){
 				$('html, body').animate({
 					scrollTop: offset-topbar+15
@@ -223,7 +223,7 @@
 				}, this.config.scrollSpeed, this.config.easing, callback);
 			}
 
-			
+
 		},
 
 		unbindInterval: function() {
@@ -394,7 +394,7 @@ e(this):c.doc,k=new N(c,e(this)),e(this).data("__nicescroll",k));h.push(k)});ret
 
 
 
-/*------------------------------------------------------------------*/ 
+/*------------------------------------------------------------------*/
 /*	MAGNIFIC POPUP
 /*------------------------------------------------------------------*/
 
