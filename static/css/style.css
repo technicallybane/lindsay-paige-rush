@@ -2648,7 +2648,7 @@ input[type=number] {
 	.dizme_tm_header .download_cv a{padding: 5px 25px 4px 25px;}
 	.dizme_tm_header .logo img{max-width: 110px;max-height: 70px;}
 	.dizme_tm_header .menu ul li{margin-right: 30px;}
-	.dizme_tm_hero {height: 70vh;}
+	.dizme_tm_hero {height: 750px;}
 	.dizme_tm_hero .hello h3{font-size: 25px;}
 	.dizme_tm_hero .name h3{font-size: 60px;}
 	.dizme_tm_hero .job p{font-size: 19px;}
@@ -2725,7 +2725,7 @@ input[type=number] {
 	.dizme_tm_portfolio .mobile_title{display: block;}
 	.dizme_tm_portfolio_titles.visible{opacity: 0;visibility: hidden;}
 	.dizme_tm_portfolio .portfolio_list ul li .inner:hover .main{transform: scale(1);}
-	.dizme_tm_hero {height: 80vh;}
+	.dizme_tm_hero {height: 800px;}
 	.dizme_tm_hero .content{flex-direction: column-reverse;justify-content: center}
 	.dizme_tm_hero .avatar{padding: 0px;width: auto;margin-bottom: 30px;}
 	.dizme_tm_hero .avatar img{max-width: 300px;max-height: 300px;}
@@ -2793,7 +2793,7 @@ input[type=number] {
 	.dizme_tm_copyright .inner{flex-direction: column;align-items: center;}
 }
 @media (max-width: 768px) {
-	.dizme_tm_hero {height: 70vh;}
+	.dizme_tm_hero {height: 760px;}
 	.dizme_tm_hero .avatar img{max-width: 220px;max-height: 220px;}
 	.dizme_tm_hero .job{margin-bottom: 15px;}
 	.dizme_tm_hero .job p{font-size: 18px;}
@@ -2841,8 +2841,8 @@ input[type=number] {
 	.dizme_tm_contact{margin-bottom: 120px;}
 }
 @media (max-width: 420px) {
-	.dizme_tm_hero {height: 75vh;}
+	.dizme_tm_hero {height: 800px;}
 }
 @media (max-width: 340px) {
-	.dizme_tm_hero {height: 85vh;}
+	.dizme_tm_hero {height: 960px;}
 }
