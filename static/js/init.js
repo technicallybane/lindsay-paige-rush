@@ -7,9 +7,9 @@
 jQuery(document).ready(function(){
 
 	"use strict";
-	
+
 	// here all ready functions
-	
+
 	dizme_tm_modalbox();
 	dizme_tm_nav_bg();
 	dizme_tm_trigger_menu();
@@ -29,14 +29,14 @@ jQuery(document).ready(function(){
 	dizme_tm_input_padding();
 	dizme_tm_totop();
 	dizme_tm_down();
-	
+
 	jQuery(window).load('body', function(){
 		dizme_tm_my_load();
 	});
 	jQuery(window).on('scroll', function(){
 		dizme_tm_progress_line();
 	});
-	
+
 });
 
 // -----------------------------------------------------
@@ -48,9 +48,9 @@ jQuery(document).ready(function(){
 // -----------------------------------------------------
 
 function dizme_tm_modalbox(){
-	
+
 	"use strict";
-	
+
 	jQuery('.dizme_tm_all_wrap').prepend('<div class="dizme_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><i class="icon-cancel"></i></a></div><div class="description_wrap"></div></div></div>');
 }
 
@@ -59,14 +59,14 @@ function dizme_tm_modalbox(){
 // -------------------------------------------------
 
 function dizme_tm_nav_bg(){
-	
+
 	"use strict";
-	
+
 	jQuery(window).on('scroll',function(){
 		var menu	 		= jQuery('.dizme_tm_header');
 		var progress	 	= jQuery('.progressbar');
 		var WinOffset		= jQuery(window).scrollTop();
-		
+
 		if(WinOffset >= 100){
 			menu.addClass('animate');
 			progress.addClass('animate');
@@ -82,7 +82,7 @@ function dizme_tm_nav_bg(){
 // -----------------------------------------------------
 
 function dizme_tm_trigger_menu(){
-	
+
 	"use strict";
 
 	var hamburger 		= jQuery('.trigger .hamburger');
@@ -101,7 +101,7 @@ function dizme_tm_trigger_menu(){
 		}
 		return false;
 	});
-	
+
 	mobileMenuList.on('click',function(){
 		jQuery('.trigger .hamburger').removeClass('is-active');
 		mobileMenu.slideUp();
@@ -114,13 +114,13 @@ function dizme_tm_trigger_menu(){
 // -------------------------------------------------
 
 function dizme_tm_service_popup(){
-	
+
 	"use strict";
-	
+
 	var modalBox		= jQuery('.dizme_tm_modalbox');
 	var button			= jQuery('.dizme_tm_services .service_list ul li .dizme_tm_full_link');
 	var closePopup		= modalBox.find('.close');
-	
+
 	button.on('click',function(){
 		var element = jQuery(this);
 		var parent	= element.closest('.dizme_tm_services .service_list ul li');
@@ -146,13 +146,13 @@ function dizme_tm_service_popup(){
 // -------------------------------------------------
 
 function dizme_tm_modalbox_news(){
-	
+
 	"use strict";
-	
+
 	var modalBox		= jQuery('.dizme_tm_modalbox');
 	var button			= jQuery('.dizme_tm_news .dizme_tm_full_link,.dizme_tm_news ul li .details .title a');
 	var closePopup		= modalBox.find('.close');
-	
+
 	button.on('click',function(){
 		var element 	= jQuery(this);
 		var parent 		= element.closest('.list_inner');
@@ -179,13 +179,13 @@ function dizme_tm_modalbox_news(){
 // -------------------------------------------------
 
 function dizme_tm_modalbox_portfolio(){
-	
+
 	"use strict";
-	
+
 	var modalBox		= jQuery('.dizme_tm_modalbox');
 	var button			= jQuery('.dizme_tm_portfolio .portfolio_popup');
 	var closePopup		= modalBox.find('.close');
-	
+
 	button.off().on('click',function(){
 		var element 	= jQuery(this);
 		var parent 		= element.closest('.inner');
@@ -211,7 +211,7 @@ function dizme_tm_modalbox_portfolio(){
 // -----------------    PORTFOLIO    ---------------
 // -------------------------------------------------
 
-// filterable 
+// filterable
 
 function dizme_tm_portfolio(){
 
@@ -223,12 +223,12 @@ function dizme_tm_portfolio(){
 		var filter		 = jQuery('.dizme_tm_portfolio .portfolio_filter ul');
 
 		if(filter.length){
-			// Isotope Filter 
+			// Isotope Filter
 			filter.find('a').on('click', function(){
 				var element		= jQuery(this);
 				var selector 	= element.attr('data-filter');
 				var list		= element.closest('.dizme_tm_portfolio').find('.portfolio_list').children('ul');
-				list.isotope({ 
+				list.isotope({
 					filter				: selector,
 					animationOptions	: {
 						duration			: 750,
@@ -236,19 +236,51 @@ function dizme_tm_portfolio(){
 						queue				: false
 					}
 				});
-				
+
 				filter.find('a').removeClass('current');
 				element.addClass('current');
 				return false;
-			});	
+			});
+		}
+	}
+}
+
+function dizme_tm_portfolio(){
+
+	"use strict";
+
+	if(jQuery().isotope) {
+
+		// Needed variables
+		var filter		 = jQuery('.dizme_tm_portfolio .portfolio_filter select');
+
+		if(filter.length){
+			// Isotope Filter
+			filter.find('option').on('click', function(){
+				var element		= jQuery(this);
+				var selector 	= element.attr('data-filter');
+				var list		= element.closest('.dizme_tm_portfolio').find('.portfolio_list').children('select');
+				list.isotope({
+					filter				: selector,
+					animationOptions	: {
+						duration			: 750,
+						easing				: 'linear',
+						queue				: false
+					}
+				});
+
+				filter.find('option').removeClass('current');
+				element.addClass('current');
+				return false;
+			});
 		}
 	}
 }
 
 function dizme_tm_projects(){
-	
+
 	"use strict";
-	
+
 	jQuery('.dizme_tm_portfolio_animation_wrap').each(function() {
 		jQuery(this).on('mouseenter', function() {
 			if (jQuery(this).data('title')) {
@@ -273,9 +305,9 @@ function dizme_tm_projects(){
 // -------------------------------------------------
 
 function tdProgress(container){
-	
+
 	"use strict";
-		
+
 	container.find('.progress_inner').each(function() {
 		var progress 		= jQuery(this);
 		var pValue 			= parseInt(progress.data('value'), 10);
@@ -291,9 +323,9 @@ function tdProgress(container){
 	});
 }
 function progress_by_frenify(wrapper){
-	
+
 	"use strict";
-	
+
 	var element;
 	if(wrapper){
 		element = wrapper.find('.dodo_progress');
@@ -304,7 +336,7 @@ function progress_by_frenify(wrapper){
 		var pWrap = jQuery(this);
 		pWrap.find('.number').css({right:'100%'});
 		console.log(pWrap.find('.number').length);
-		pWrap.waypoint({handler: function(){tdProgress(pWrap);},offset:'90%'});	
+		pWrap.waypoint({handler: function(){tdProgress(pWrap);},offset:'90%'});
 	});
 }
 
@@ -324,12 +356,12 @@ jQuery('.tilt-effect').tilt({
 // -----------------------------------------------------
 
 function dizme_tm_preloader(){
-	
+
 	"use strict";
-	
+
 	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
 	var preloader = $('#preloader');
-	
+
 	if (!isMobile) {
 		setTimeout(function() {
 			preloader.addClass('preloaded');
@@ -348,11 +380,11 @@ function dizme_tm_preloader(){
 // -----------------------------------------------------
 
 function dizme_tm_mycounter(){
-	
+
 	"use strict";
-	
+
 	jQuery('.dizme_tm_counter').removeClass('stop');
-	
+
 	jQuery('.dizme_tm_counter').each(function() {
 
 	var el		= jQuery(this);
@@ -364,10 +396,10 @@ function dizme_tm_mycounter(){
 						refreshInterval: 50,
 						formatter: function (value, options) {
 							return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
-						},	
+						},
 					});
 				}
-			},offset:'95%'	
+			},offset:'95%'
 		});
 	});
 }
@@ -377,9 +409,9 @@ function dizme_tm_mycounter(){
 // -----------------------------------------------------
 
 function dizme_tm_my_load(){
-	
+
 	"use strict";
-	
+
 	var speed	= 500;
 	setTimeout(function(){dizme_tm_preloader();},speed);
 }
@@ -389,11 +421,11 @@ function dizme_tm_my_load(){
 // -----------------------------------------------------
 
 function dizme_tm_cursor(){
-	
+
     "use strict";
-	
+
 	var myCursor	= jQuery('.mouse-cursor');
-	
+
 	if(myCursor.length){
 		if ($("body")) {
         const e = document.querySelector(".cursor-inner"),
@@ -416,11 +448,11 @@ function dizme_tm_cursor(){
 // -----------------------------------------------------
 
 function dizme_tm_imgtosvg(){
-	
+
 	"use strict";
-	
+
 	jQuery('img.svg').each(function(){
-		
+
 		var jQueryimg 		= jQuery(this);
 		var imgClass		= jQueryimg.attr('class');
 		var imgURL			= jQueryimg.attr('src');
@@ -450,7 +482,7 @@ function dizme_tm_imgtosvg(){
 // -----------------------------------------------------
 
 function dizme_tm_popup(){
-	
+
 	"use strict";
 
 	jQuery('.gallery_zoom').each(function() { // the containers for all your galleries
@@ -475,11 +507,11 @@ function dizme_tm_popup(){
 			fixedContentPos: false
 		});
 	});
-	
+
 	jQuery('.soundcloude_link').magnificPopup({
 	  type : 'image',
 	   gallery: {
-		   enabled: true, 
+		   enabled: true,
 	   },
 	});
 }
@@ -489,11 +521,11 @@ function dizme_tm_popup(){
 // -----------------------------------------------------
 
 function dizme_tm_data_images(){
-	
+
 	"use strict";
-	
+
 	var data			= jQuery('*[data-img-url]');
-	
+
 	data.each(function(){
 		var element			= jQuery(this);
 		var url				= element.data('img-url');
@@ -506,44 +538,44 @@ function dizme_tm_data_images(){
 // -----------------------------------------------------
 
 function dizme_tm_contact_form(){
-	
+
 	"use strict";
-	
+
 	jQuery(".contact_form #send_message").on('click', function(){
-		
+
 		var name 		= jQuery(".contact_form #name").val();
 		var email 		= jQuery(".contact_form #email").val();
 		var message 	= jQuery(".contact_form #message").val();
 		var subject 	= jQuery(".contact_form #subject").val();
 		var success     = jQuery(".contact_form .returnmessage").data('success');
-	
+
 		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-		//checking for blank fields	
+		//checking for blank fields
 		if(name===''||email===''||message===''){
-			
+
 			jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
 		}
 		else{
 			// Returns successful data submission message when the entered information is stored in database.
 			jQuery.post("modal/contact.php",{ ajax_name: name, ajax_email: email, ajax_message:message, ajax_subject: subject}, function(data) {
-				
+
 				jQuery(".contact_form .returnmessage").append(data);//Append returned message to message paragraph
-				
-				
+
+
 				if(jQuery(".contact_form .returnmessage span.contact_error").length){
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);		
+					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);
 				}else{
 					jQuery(".contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
 					jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
 				}
-				
+
 				if(data===""){
 					jQuery("#contact_form")[0].reset();//To reset form fields on success
 				}
-				
+
 			});
 		}
-		return false; 
+		return false;
 	});
 }
 
@@ -554,9 +586,9 @@ function dizme_tm_contact_form(){
 function dizme_tm_owl_carousel(){
 
 	"use strict";
-	
+
 	var carousel			= jQuery('.dizme_tm_testimonials .owl-carousel');
-	
+
 	var rtlMode	= false;
 
 	if(jQuery('body').hasClass('rtl')){
@@ -591,14 +623,14 @@ $('.grid').masonry({
 // -------------------------------------------------
 
 function dizme_tm_input_padding(){
-	
+
 	"use strict";
-	
+
 	var inpText		= jQuery('.dizme_tm_subscribe .field input[type="text"]');
 	var inpSubmit	= jQuery('.dizme_tm_subscribe .field input[type="submit"]').outerWidth();
 
 	inpText.css({paddingRight:inpSubmit+30+'px'});
-	
+
 }
 
 // -----------------------------------------------------
@@ -606,9 +638,9 @@ function dizme_tm_input_padding(){
 // -----------------------------------------------------
 
 function dizme_tm_progress_line(){
-	
+
 	"use strict";
-	
+
 	var line			= jQuery('.progressbar .line');
 	var documentHeight 	= jQuery(document).height();
 	var windowHeight 	= jQuery(window).height();
@@ -624,17 +656,17 @@ function dizme_tm_progress_line(){
 // -----------------------------------------------------
 
 function dizme_tm_totop(){
-  
+
 	"use strict";
-	
+
 	var text = $('.progressbar .text');
 	text.css({bottom: 105 + text.width()});
 	$(".progressbar a").on('click', function(e) {
-		e.preventDefault();    
+		e.preventDefault();
 		$("html, body").animate({ scrollTop: 0 }, 'slow');
 		return false;
 	});
-	
+
 }
 
 // ------------------------------------------------
@@ -648,19 +680,19 @@ jQuery('.anchor_nav').onePageNav();
 // -----------------------------------------------------
 
 function dizme_tm_down(){
-	
+
 	"use strict";
-	
+
 	var topbar	= jQuery('.dizme_tm_header').outerHeight();
-	
+
 	jQuery('.anchor').on('click',function(){
-		
+
 		if($.attr(this, 'href') !== '#'){
 			$('html, body').animate({
 				scrollTop: $($.attr(this, 'href')).offset().top-topbar+20
 			}, 800);
 		}
-		
+
 		return false;
 	});
 }
