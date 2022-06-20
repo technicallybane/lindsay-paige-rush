@@ -245,38 +245,6 @@ function dizme_tm_portfolio(){
 	}
 }
 
-function dizme_tm_portfolio(){
-
-	"use strict";
-
-	if(jQuery().isotope) {
-
-		// Needed variables
-		var filter		 = jQuery('.dizme_tm_portfolio .portfolio_filter select');
-
-		if(filter.length){
-			// Isotope Filter
-			filter.find('option').on('click', function(){
-				var element		= jQuery(this);
-				var selector 	= element.attr('data-filter');
-				var list		= element.closest('.dizme_tm_portfolio').find('.portfolio_list').children('select');
-				list.isotope({
-					filter				: selector,
-					animationOptions	: {
-						duration			: 750,
-						easing				: 'linear',
-						queue				: false
-					}
-				});
-
-				filter.find('option').removeClass('current');
-				element.addClass('current');
-				return false;
-			});
-		}
-	}
-}
-
 function dizme_tm_projects(){
 
 	"use strict";
