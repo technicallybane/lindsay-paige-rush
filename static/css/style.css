@@ -2814,6 +2814,7 @@ input[type=number] {
 	.dizme_tm_partners ul li{width: 50%;}
 	.dizme_tm_news ul{margin: 0px;}
 	.dizme_tm_news ul li{width: 100%;padding-left: 0px;}
+	.dizme_tm_contact .left .icon {width: 65px; height: 65px;}
 	.dizme_tm_contact .input_list ul{margin: 0px;}
 	.dizme_tm_contact .input_list ul li{width: 100%;padding-left: 0px;}
 	.dizme_tm_subscribe .field input[type="submit"]{padding: 0px 15px;}
@@ -2845,6 +2846,7 @@ input[type=number] {
 }
 @media (max-width: 420px) {
 	.dizme_tm_hero {height: 800px;}
+	.dizme_tm_contact .left .icon {width: 50px; height: 50px;}
 }
 @media (max-width: 387px) {
 	.dizme_tm_hero {height: 880px;}
