@@ -2722,8 +2722,8 @@ input[type=number] {
 	.mouse-cursor{display: none;}
 	.dizme_tm_header{display: none;}
 	.dizme_tm_mobile_menu{display: block; background-color: #fff; opacity: .9;}
-	.dizme_tm_portfolio .portfolio_filter ul{display: none;}
-	.dizme_tm_portfolio .portfolio_filter select{display: inline-block; font-size: 18px;}
+	.dizme_tm_portfolio .portfolio_filter{padding-top: 20px !important; padding-bottom: 30px !important;}
+	.dizme_tm_portfolio .portfolio_filter ul li{margin: 25px 2px 0px 0px; display: inline-block; line-height: 2.25; border: #f75023; border-style: solid; border-radius: 25px; border-width: thin; padding-left: 20px; padding-right: 20px;}
 	.dizme_tm_portfolio .portfolio_list .main{border-radius: 12px;}
 	.dizme_tm_portfolio .mobile_title{display: block;}
 	.dizme_tm_portfolio_titles.visible{opacity: 0;visibility: hidden;}
