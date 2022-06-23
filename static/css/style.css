@@ -582,6 +582,7 @@ h6 { font-size: 16px; }
 }
 .dizme_tm_button a:hover:before{
 	height: 0;
+	background-color: #8067f0;
 }
 .dizme_tm_button a:hover span{
 	color: #000;

@@ -1,0 +1,10 @@
+weight: 15
+filter: video
+category: Video Scripts
+class: popup-vimeo
+link_url: "https://vimeo.com/555007416"
+target:
+image: "img/portfolio/clemson-rings.jpg"
+thumb: "img/thumbs/clemson-rings-thumb.jpg"
+title: "Your ring is your story. Wear it with pride."
+subtitle: The Clemson Ring
