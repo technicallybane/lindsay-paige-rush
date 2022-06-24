@@ -47,21 +47,20 @@
         </div>
         <div class="right wow fadeInRight" data-wow-duration="1s">
           <div class="fields">
-            <form name="Website Contact Form" netlify-honeypot="bot-field" data-netlify="true" action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
-              <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
-              <div class="empty_notice"><span>Please fill out the required fields</span></div>
+            <form name="Website Contact Form" method="POST" class="dizme_tm_contact_form" netlify-honeypot="bot-field" data-netlify="true" id="contactForm" autocomplete="off">
+              <div class="returnmessage" data-success="Thanks for your message! I will respond as soon as I can."></div>
               <div class="input_list">
                 <ul>
-                  <li><input id="name" type="text" placeholder="Your Name" /></li>
-                  <li><input id="email" type="email" placeholder="Your Email" /></li>
-                  <li style="width: 100%;"><input id="subject" type="text" placeholder="Subject" /></li>
+                  <li><label><input type="text" name="name" placeholder="Your Name"/></label></li>
+                  <li><label><input type="email" name="email" placeholder="Your Email"/></label></li>
+                  <li style="width: 100%;"><input type="text" name="subject" placeholder="Subject" /></li>
                 </ul>
               </div>
               <div class="message_area">
-                <textarea id="message" placeholder="Tell me a little bit about your project"></textarea>
+                <label><textarea id="message" name="message" placeholder="Tell me a little bit about your project"></textarea></label>
               </div>
               <div class="dizme_tm_button">
-                <a id="send_message" href="#"><span><button type="submit">Get In Touch</button></span></a>
+                <button type="submit">Get In Touch</button>
               </div>
             </form>
           </div>

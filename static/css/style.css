@@ -57,25 +57,25 @@ img.svg{
 	height: 15px;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #6f6f6f;
+    color: #ccc;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #6f6f6f;
+   color: #ccc;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #6f6f6f;
+   color: #ccc;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #6f6f6f;
+   color: #ccc;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #6f6f6f;
+   color: #ccc;
 }
 
 ::placeholder { /* Most modern browsers support this now. */
-   color: #6f6f6f;
+   color: #ccc;
 }
 
 body::-webkit-scrollbar {
@@ -537,55 +537,30 @@ h6 { font-size: 16px; }
 .dizme_tm_hero .dizme_tm_button{
 	width: auto;
 }
-.dizme_tm_button{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
+.dizme_tm_button button{
+  width: auto;
+  height: auto;
+  clear: both;
+  float: left;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Oxygen',sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: orangered;
+  cursor: pointer;
+  font-size: 18px;
 }
-.dizme_tm_button a{
-	text-decoration: none;
-	color: #fff;
-	display: inline-block;
-	font-family: 'Oxygen', sans-serif;
-	font-weight: 300;
-	border-radius: 5px;
-	padding: 14px 48px 13px 48px;
-	position: relative;
-	overflow: hidden;
-}
-.dizme_tm_button span{
-	position: relative;
-	z-index: 2;
-
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.dizme_tm_button a:before{
-	position: absolute;
-	content: "";
-	z-index: 0;
-	background-color: #f75023;
-	left: -5px;
-	right: -5px;
-	bottom: -5px;
-	height: 110%;
-
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.dizme_tm_button a:hover:before{
-	height: 0;
-	background-color: #8067f0;
-}
-.dizme_tm_button a:hover span{
-	color: #000;
+.dizme_tm_button button:hover{
+ color:#000000;
+ background-color:#FFFFFF;
 }
 .dizme_tm_hero .social{
 	padding-left: 27px;
@@ -2406,9 +2381,9 @@ h6 { font-size: 16px; }
 	height: 58px;
 	padding: 0px 30px;
 	background-color: transparent;
-	border:1px solid #d6dbe5;
+	border:1px solid #424242;
 	border-radius: 12px;
-	color: #6f6b80;
+	color: #424242;
 	font-size: 18px;
 }
 .dizme_tm_contact input:focus{
@@ -2434,7 +2409,7 @@ input[type=number] {
 	height: 200px;
 	padding: 16px 30px 30px 30px !important;
 	background-color: transparent;
-	border:1px solid #d6dbe5;
+	border:1px solid #424242;
 	border-radius: 12px;
 	color: #6f6b80;
 	font-size: 18px;
@@ -2657,7 +2632,7 @@ input[type=number] {
 	.dizme_tm_hero .name h3{font-size: 60px;}
 	.dizme_tm_hero .job p{font-size: 19px;}
 	.dizme_tm_hero .text p{font-size: 16px;}
-	.dizme_tm_button a{padding: 9px 35px 8px 35px;}
+	.dizme_tm_button button{padding: 9px 35px 8px 35px;}
 	.dizme_tm_hero .social{padding-left: 24px;}
 	.dizme_tm_hero .name{margin-bottom: 13px;}
 	.dizme_tm_hero .job{margin-bottom: 23px;}
