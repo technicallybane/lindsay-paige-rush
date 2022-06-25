@@ -509,22 +509,14 @@ function dizme_tm_contact_form(){
 
 	"use strict";
 
-		document
-	  .querySelector("form")
-	  .addEventListener("submit", handleSubmit);
+	$("contactForm").submit(function(e) {
+		e.preventDefault();
 
-	const handleSubmit = (e) => {
-	  e.preventDefault();
-	  let myForm = document.getElementById("contactForm");
-	  let formData = new FormData(myForm);
-	  fetch("/", {
-	    method: "POST",
-	    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-	    body: new URLSearchParams(formData).toString(),
-	  })
-	    .then(() => console.log("Form successfully submitted"))
-	    .catch((error) => alert(error));
-	};
+		var $form = $(this);
+		$.post($form.attr("action"), $form.serialize()).then(function() {
+			alert("Thank You!");
+		});
+	});
 }
 
 // -----------------------------------------------------

@@ -2,11 +2,13 @@
 <div class="dizme_tm_section" id="portfolio">
   <div class="dizme_tm_portfolio">
     <div class="container">
+      {{ with .Site.Data.portfolio.intro }}
       <div class="dizme_tm_main_title" data-align="center">
-        <span>Content Marketing Portfolio</span>
-        <h3>Some of My Writing Projects</h3>
-        <p>Is there a little introduction we could put here to describe what's in this section? Or just to describe what an amazing, mind-blowing, brilliant, creative genius you are?</p>
+        <span>{{ .heading | markdownify }}</span>
+        <h3>{{ .subheading | markdownify }}</h3>
+        <p>{{ .description | markdownify }}</p>
       </div>
+      {{ end }}
       <div class="portfolio_filter">
         <ul>
           <li><a href="#" class="current" data-filter="*">All</a></li>
@@ -20,9 +22,9 @@
       </div>
       <div class="dizme_tm_portfolio_titles"></div>
       <div class="portfolio_list wow fadeInUp" data-wow-duration="1s">
-        {{ if gt (len .Site.Data.portfolio) 0 }}
+        {{ if gt (len .Site.Data.portfolio.items) 0 }}
         <ul class="gallery_zoom grid">
-          {{ range sort .Site.Data.portfolio "weight" }}
+          {{ range sort .Site.Data.portfolio.items "weight" }}
           <li class="{{ .filter }} grid-item">
             <div class="inner">
               <div class="entry dizme_tm_portfolio_animation_wrap" data-title="{{ .title }}" data-category="{{ .category }}">
