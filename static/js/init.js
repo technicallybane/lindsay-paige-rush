@@ -507,6 +507,8 @@ function dizme_tm_data_images(){
 
 function dizme_tm_contact_form(){
 
+	"use strict";
+
 	$("contactForm").submit(function(e) {
 		e.preventDefault();
 
