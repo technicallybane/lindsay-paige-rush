@@ -2,31 +2,36 @@
 <div class="dizme_tm_section">
   <div class="dizme_tm_testimonials">
     <div class="dizme_tm_main_title" data-align="center">
-      <span>Testimonials</span>
-      <h3>What People Say</h3>
-      <p>Besides digging in and generating the best creative work I can, I'm pretty excited about building relationships too.</p>
+      {{ with .Site.Data.testimonial.banner }}
+      <span>{{ .heading }}</span>
+      <h3>{{ .subheading }}</h3>
+      <p>{{ .description }}</p>
+      {{ end }}
     </div>
+    {{ with .Site.Data.testimonial.item }}
     <div class="list_wrapper">
       <div class="total">
         <div class="in">
           <ul class="owl-carousel owl-theme">
+            {{ range .inside }}
             <li>
               <div class="icon">
                 <img class="svg" src="img/svg/testimonials/quote.svg" alt="decorative quotation mark image" />
               </div>
               <div class="text">
-                <p>Lindsay is an energetic creative force bringing her whole self to every project. She is always ready for the next assignment and knocks it out of the park. Lindsay is talented at writing in a brand's voice and takes feedback like a pro. I highly recommend her!</p>
+                <p>{{ .text }}</p>
               </div>
               <div class="short">
                 <div class="image">
-                  <div class="main" data-img-url="img/testimonials/4.jpg"></div>
+                  <div class="main" data-img-url="{{ .image }}"></div>
                 </div>
                 <div class="detail">
-                  <h3>Elizabeth H.</h3>
-                  <span>Colleague</span>
+                  <h3>{{ .name }}</h3>
+                  <span>{{ .relation }}</span>
                 </div>
               </div>
             </li>
+            {{ end }}
           </ul>
         </div>
         <div class="left_details">
@@ -41,6 +46,7 @@
         </div>
       </div>
     </div>
+    {{ end }}
     <div class="brush_1 wow fadeInRight" data-wow-duration="1s"><img src="img/brushes/testimonials/1.png" alt="" /></div>
   </div>
 </div>
