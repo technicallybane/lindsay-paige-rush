@@ -378,7 +378,7 @@ h6 { font-size: 16px; }
 .dizme_tm_header.animate{
 	background-color: #fff;
 	padding: 20px 0px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.4);
 }
 .dizme_tm_header .logo img{
 	max-width: 150px;
@@ -537,7 +537,7 @@ h6 { font-size: 16px; }
 .dizme_tm_hero .dizme_tm_button{
 	width: auto;
 }
-.dizme_tm_button button{
+.dizme_tm_button button {
   width: auto;
   height: auto;
   clear: both;
@@ -554,13 +554,13 @@ h6 { font-size: 16px; }
   color: white;
   text-align: center;
   transition: all 0.2s;
-  background-color: orangered;
+  background-color: #f75023;
   cursor: pointer;
   font-size: 18px;
 }
 .dizme_tm_button button:hover{
  color:#000000;
- background-color:#FFFFFF;
+ background-color: #1cbe59;
 }
 .dizme_tm_hero .social{
 	padding-left: 27px;
@@ -2277,7 +2277,6 @@ h6 { font-size: 16px; }
 	font-size: 18px;
 	text-transform: capitalize;
 	font-weight: 300;
-	background-color: #f75023;
 	padding: 0px 35px;
 }
 
@@ -2389,6 +2388,7 @@ h6 { font-size: 16px; }
 .dizme_tm_contact input:focus{
 	background-color: transparent;
 	outline: none;
+	border:2px solid #1cbe59;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -2411,12 +2411,13 @@ input[type=number] {
 	background-color: transparent;
 	border:1px solid #424242;
 	border-radius: 12px;
-	color: #6f6b80;
+	color: #424242;
 	font-size: 18px;
 }
 .dizme_tm_contact .message_area textarea:focus{
 	background-color: transparent;
 	outline: none;
+	border:2px solid #1cbe59;
 }
 .dizme_tm_contact .empty_notice{
 	color: #F52225;
@@ -2697,7 +2698,7 @@ input[type=number] {
 	.container{padding: 0px 20px;}
 	.mouse-cursor{display: none;}
 	.dizme_tm_header{display: none;}
-	.dizme_tm_mobile_menu{display: block; background-color: #fff; opacity: .9;}
+	.dizme_tm_mobile_menu{display: block; background-color: #fff; opacity: .9; box-shadow: 0px 0px 10px rgba(0,0,0,.4);}
 	.dizme_tm_portfolio .portfolio_filter{padding-top: 20px !important; padding-bottom: 30px !important;}
 	.dizme_tm_portfolio .portfolio_filter ul li{margin: 25px 2px 0px 0px; display: inline-block; line-height: 2.25; border: #f75023; border-style: solid; border-radius: 25px; border-width: thin; padding-left: 20px; padding-right: 20px;}
 	.dizme_tm_portfolio .portfolio_list .main{border-radius: 12px;}

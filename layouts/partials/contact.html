@@ -47,17 +47,17 @@
         </div>
         <div class="right wow fadeInRight" data-wow-duration="1s">
           <div class="fields">
-            <form name="Website Contact Form" method="POST" class="dizme_tm_contact_form" netlify-honeypot="bot-field" data-netlify="true" id="contactForm" autocomplete="off">
+            <form name="Website Contact Form" method="POST" class="dizme_tm_contact_form" netlify-honeypot="bot-field" data-netlify="true" id="contactForm" autocomplete="off" action="#contact" ajax="true">
               <div class="returnmessage" data-success="Thanks for your message! I will respond as soon as I can."></div>
               <div class="input_list">
                 <ul>
-                  <li><label><input type="text" name="name" placeholder="Your Name"/></label></li>
-                  <li><label><input type="email" name="email" placeholder="Your Email"/></label></li>
-                  <li style="width: 100%;"><input type="text" name="subject" placeholder="Subject" /></li>
+                  <li><label><input type="text" name="name" placeholder="Your Name" required/></label></li>
+                  <li><label><input type="email" name="email" placeholder="Your Email" required/></label></li>
+                  <li style="width: 100%;"><input type="text" name="subject" placeholder="Subject" required/></li>
                 </ul>
               </div>
               <div class="message_area">
-                <label><textarea id="message" name="message" placeholder="Tell me a little bit about your project"></textarea></label>
+                <label><textarea id="message" name="message" placeholder="Tell me a little bit about your project" required></textarea></label>
               </div>
               <div class="dizme_tm_button">
                 <button type="submit">Get In Touch</button>
