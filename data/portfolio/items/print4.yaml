@@ -1,0 +1,10 @@
+weight: 8
+filter: print
+category: Print
+class:
+link_url: "img/portfolio/Habitat-reimagineyourneighborhood.pdf"
+target: "_blank"
+image: "img/portfolio/habitat-print.png"
+thumb: "img/thumbs/habitat-print-thumb.png"
+title: "Build the framework that redefines your community."
+subtitle: Habitat for Humanity

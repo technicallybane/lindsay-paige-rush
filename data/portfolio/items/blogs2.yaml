@@ -1,0 +1,13 @@
+weight: 1
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://www.gettheclicks.com/web-design/web-development-seo/"
+target: "_blank"
+image: "img/portfolio/get-the-clicks-dogs.png"
+thumb: "img/thumbs/get-the-clicks-dogs-thumb.png"
+title: "Web Development for SEO"
+subtitle: Get the Clicks
+blurb:
+  enabled: true
+  text: "I scream, you scream, we all scream for website structure."

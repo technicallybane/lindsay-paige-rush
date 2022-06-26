@@ -1,0 +1,13 @@
+weight: 23
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://asuonline.asu.edu/newsroom/leading-educators/how-to-prepare-for-a-disaster/"
+target: "_blank"
+image: "img/portfolio/asu-disaster-prep.jpg"
+thumb: "img/portfolio/asu-disaster-prep.jpg"
+title: "Disaster Preparation Tips for Students"
+subtitle: ASU Online
+blurb:
+  enabled: true
+  text: "Leading faculty share tips on disaster preparation and building resilience after adversity."

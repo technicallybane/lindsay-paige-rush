@@ -34,8 +34,9 @@
                 </a>
               </div>
               <div class="inner_detail">
-                <p>{{ .title }}</p>
-                <h3>{{ .subtitle }}</h3>
+                <p>{{ .title | markdownify }}</p>
+                {{ if .blurb.enabled }}<p class="blurb">{{ .blurb.text | markdownify }}</p>{{ end }}
+                <h3>{{ .subtitle | markdownify }}</h3>
               </div>
             </div>
           </li>
