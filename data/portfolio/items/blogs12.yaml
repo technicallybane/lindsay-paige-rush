@@ -1,0 +1,13 @@
+weight: 27
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://asuonline.asu.edu/newsroom/asu-online-news/asu-ranked-top-school-innovation-us-seventh-consecutive-year/"
+target: "_blank"
+image: "img/portfolio/asu-one-innovation.jpg"
+thumb: "img/portfolio/asu-one-innovation.jpg"
+title: "ASU is #1 in Innovation"
+subtitle: ASU Online
+blurb:
+  enabled: true
+  text: "Ranked among the top universities by U.S. News & World Report for 7 consecutive years."

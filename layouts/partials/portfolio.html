@@ -28,13 +28,13 @@
           <li class="{{ .filter }} grid-item">
             <div class="inner">
               <div class="entry dizme_tm_portfolio_animation_wrap" data-title="{{ .title }}" data-category="{{ .category }}">
-                <a class="{{ .class }}" href="{{ .link_url }}" target="{{ .target }}">
+                <a class="{{ .class }}" href="{{ .link_url }}" target="{{ .target }}" rel="noreferrer">
                   <img src="{{ .thumb }}" alt="{{ .subtitle }}" />
                   <div class="main" data-img-url="{{ .image }}"></div>
                 </a>
               </div>
               <div class="inner_detail">
-                <p>{{ .title | markdownify }}</p>
+                <a style="text-decoration: none;" href="{{ .link_url }}" target="{{ .target }}" rel="noreferrer"><p>{{ .title | markdownify }}</p></a>
                 {{ if .blurb.enabled }}<p class="blurb">{{ .blurb.text | markdownify }}</p>{{ end }}
                 <h3>{{ .subtitle | markdownify }}</h3>
               </div>

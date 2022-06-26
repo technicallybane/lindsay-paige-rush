@@ -1,0 +1,13 @@
+weight: 28
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://asuonline.asu.edu/newsroom/sun-devil-life/balance-fatherhood-college-student/"
+target: "_blank"
+image: "img/portfolio/asu-balancing-fatherhood.jpg"
+thumb: "img/portfolio/asu-balancing-fatherhood.jpg"
+title: "Balancing Fatherhood and Being a College Student"
+subtitle: ASU Online
+blurb:
+  enabled: true
+  text: "We celebrate dads who are balancing student life with home life."

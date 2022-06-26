@@ -1,0 +1,13 @@
+weight: 24
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://womanshealthcenters.com/obstretic-services/genetic-testing/"
+target: "_blank"
+image: "img/portfolio/womens-health-genetic.jpg"
+thumb: "img/portfolio/womens-health-genetic.jpg"
+title: "Genetic Testing"
+subtitle: Woman's Health Centers
+blurb:
+  enabled: true
+  text: "Identify your risk and strategize preventative efforts."

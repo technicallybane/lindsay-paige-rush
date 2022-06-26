@@ -1,0 +1,13 @@
+weight: 11
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://asuonline.asu.edu/newsroom/asu-online-news/women-leading-way-stem/"
+target: "_blank"
+image: "img/portfolio/asu-women-in-stem.jpg"
+thumb: "img/portfolio/asu-women-in-stem.jpg"
+title: "Women leading the way in STEM"
+subtitle: ASU Online
+blurb:
+  enabled: true
+  text: "More women are fueling change across industries typically dominated by men."

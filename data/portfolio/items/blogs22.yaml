@@ -1,0 +1,13 @@
+weight: 37
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://koniceklaworlando.com/military-family-law/"
+target: "_blank"
+image: "img/portfolio/konicek-law-military.jpg"
+thumb: "img/portfolio/konicek-law-military.jpg"
+title: "Military Family Law"
+subtitle: Konicek Law Orlando
+blurb:
+  enabled: true
+  text: "Navigate the components of military family law."

@@ -1,0 +1,13 @@
+weight: 6
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "http://koniceklaworlando.com/relocation-after-divorce/"
+target: "_blank"
+image: "img/portfolio/konicek-divorce-law.jpg"
+thumb: "img/portfolio/konicek-divorce-law.jpg"
+title: "Relocation After Divorce"
+subtitle: Konicek Law Orlando
+blurb:
+  enabled: true
+  text: "The opportunity for a new beginning, but with obstacles along the way."

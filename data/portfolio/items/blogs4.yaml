@@ -1,0 +1,13 @@
+weight: 24
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/back-to-school-adult/"
+target: "_blank"
+image: "img/portfolio/asu-back-to-school.jpg"
+thumb: "img/portfolio/asu-back-to-school.jpg"
+title: "Going Back to School as an Adult"
+subtitle: ASU Online
+blurb:
+  enabled: true
+  text: "Nontraditional students face unique challenges and present admirable drive."

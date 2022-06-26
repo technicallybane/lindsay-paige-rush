@@ -1,0 +1,13 @@
+weight: 26
+filter: blogs
+category: SEO Blogs
+class:
+link_url: "https://asuonline.asu.edu/newsroom/asu-online-news/4plus1-masters-program/"
+target: "_blank"
+image: "img/portfolio/asu-earn-masters-sooner.jpg"
+thumb: "img/portfolio/asu-earn-masters-sooner.jpg"
+title: "Earn your master's sooner"
+subtitle: ASU Online
+blurb:
+  enabled: true
+  text: "Qualified students can earn a cost-effective education."
