@@ -1,13 +1,13 @@
 <head>
-
+{{ with .Site.Params }}
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<meta name="description" content="Name of your web site">
-<meta name="author" content="Marketify">
+<meta name="description" content="{{ .description | markdownify }}">
+<meta name="author" content="{{ .author }}">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Lindsay Paige Rush | Writer</title>
+<title>{{ .title }}</title>
 
 <!-- STYLES -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +15,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Oxygen:wght@300&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-<link rel="stylesheet" type="text/css" href="css/dark.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
-
+{{ end }}
 </head>
