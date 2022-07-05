@@ -3,15 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/editor"
 webhook_url: 
-sections:
-- type: document
-  path: config.toml
-  label: Site Options
-- type: directory
-  path: config/_default
-  label: Site Settings
-  create: all
-  match: "**/*"
+sections: 
 upload_dir: assets/images
 public_path: "/images"
 front_matter_path: ''

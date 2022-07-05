@@ -127,5 +127,3 @@ fields:
       hidden: true
     hidden: true
   hidden: true
-pages:
-- config/_default/config.toml

@@ -28,5 +28,3 @@ fields:
   - type: number
     name: weight
     label: weight
-pages:
-- config/_default/menus.en.toml

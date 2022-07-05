@@ -74,5 +74,3 @@ fields:
         name: link
         label: link
     hidden: true
-pages:
-- config.toml
