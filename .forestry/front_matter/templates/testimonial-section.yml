@@ -1,0 +1,40 @@
+---
+label: Testimonial Section
+hide_body: true
+fields:
+- type: field_group
+  name: intro
+  label: intro
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: subheading
+    label: subheading
+  - type: textarea
+    name: description
+    label: description
+- type: field_group
+  name: item
+  label: item
+  fields:
+  - type: field_group_list
+    name: inside
+    label: inside
+    fields:
+    - type: number
+      name: weight
+      label: weight
+    - type: textarea
+      name: text
+      label: text
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: relation
+      label: relation
+    - type: textarea
+      name: image
+      label: image

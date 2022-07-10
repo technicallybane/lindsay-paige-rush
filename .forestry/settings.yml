@@ -18,6 +18,11 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yaml
+- type: heading
+  label: Testimonials
+- type: document
+  path: data/testimonial.yaml
+  label: Testimonial
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
