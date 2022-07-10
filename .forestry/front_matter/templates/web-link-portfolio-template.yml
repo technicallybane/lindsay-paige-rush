@@ -23,9 +23,9 @@ fields:
     - articles
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Portfolio Category
   description: Which section of the portfolio should this item be assigned to?
 - name: category
@@ -42,9 +42,9 @@ fields:
     - Video Scripts
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Category Full Name
   description: This is the full descriptive name of the category you want this item
     to belong to
@@ -54,13 +54,14 @@ fields:
   showOnly:
     field: filter
     value: video
-  default: zoom
+  default: ''
   hidden: true
-- type: file
-  name: link_url
-  label: Portfolio Link
-  description: Select the portfolio item you want displayed when someone clicks on
-    a thumbnail
+- name: link_url
+  type: text
+  config:
+    required: false
+  label: Website Link
+  description: This is a link to an external website or blog that displays your work
 - name: target
   type: select
   default: ''
@@ -70,9 +71,9 @@ fields:
     - _blank
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Open in a new tab?
   description: Select the <strong><em>_blank</em></strong> option to open PDFs and
     external websites in a new tab
