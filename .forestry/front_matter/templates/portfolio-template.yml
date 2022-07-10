@@ -123,6 +123,7 @@ fields:
 pages:
 - data/portfolio/items/marketing1.yaml
 - data/portfolio/items/marketing11.yaml
+- data/portfolio/items/marketing2.yaml
 - data/portfolio/items/marketing3.yaml
 - data/portfolio/items/marketing4.yaml
 - data/portfolio/items/marketing5.yaml
