@@ -64,7 +64,7 @@ fields:
   description: This is a link to an external website or blog that displays your work
 - name: target
   type: select
-  default: ''
+  default: _blank
   config:
     required: false
     options:
@@ -77,7 +77,7 @@ fields:
   label: Open in a new tab?
   description: Select the <strong><em>_blank</em></strong> option to open PDFs and
     external websites in a new tab
-  hidden: false
+  hidden: true
 - type: file
   name: image
   label: Full Size Image
