@@ -1,10 +1,15 @@
+---
 weight: 12
 filter: print
 category: Print
-class:
-link_url: "img/portfolio/Regis-yourpassion.pdf"
-target: "_blank"
-image: "img/portfolio/regis-print.png"
-thumb: "img/thumbs/regis-print-thumb.png"
-title: "Where Your Passion Meets Our Expertise."
+class: zoom
+link_url: img/portfolio/Regis-yourpassion.pdf
+target: _blank
+image: img/portfolio/regis-print.png
+thumb: img/thumbs/regis-print-thumb.png
+title: Where Your Passion Meets Our Expertise.
 subtitle: Regis College
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
