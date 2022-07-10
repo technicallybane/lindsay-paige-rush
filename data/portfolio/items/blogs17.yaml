@@ -1,13 +1,15 @@
+---
 weight: 32
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/financial-aid-first-generation/"
-target: "_blank"
-image: "img/portfolio/asu-financial-aid.jpg"
-thumb: "img/portfolio/asu-financial-aid.jpg"
-title: "Financial Aid Tips for First-Generation Students"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/financial-aid-first-generation/
+target: _blank
+image: img/portfolio/asu-financial-aid.jpg
+thumb: img/portfolio/asu-financial-aid.jpg
+title: Financial Aid Tips for First-Generation Students
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "First-generation students can thrive while earning a degree online."
+  text: First-generation students can thrive while earning a degree online.
+content_blurb: true
