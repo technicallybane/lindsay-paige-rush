@@ -4,10 +4,19 @@ hide_body: true
 fields:
 - type: text
   name: heading
-  label: heading
+  label: Section Heading
+  description: This is the orange headline text that defines the section
+  config:
+    required: false
 - type: text
   name: subheading
-  label: subheading
+  label: Section Sub Heading
+  description: This is the larger, black serif text that describes the section
 - type: textarea
   name: description
-  label: description
+  label: Section Description
+  description: This is the body copy to help introduce this section of the site
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
