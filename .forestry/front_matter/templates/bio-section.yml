@@ -4,45 +4,70 @@ hide_body: true
 fields:
 - type: field_group
   name: hero
-  label: hero
+  label: Bio Section Settings & Content
   fields:
   - type: text
     name: title
-    label: title
+    label: Site Headline
+    description: This is the main headline of the site. Since it's your portfolio,
+      we're using your name :)
+    config:
+      required: true
   - type: file
     name: background
-    label: background
+    label: Background Image
+    description: This is the canvas and watercolor image that fills the background
+      of the hero section
   - type: field_group
     name: subtitle
-    label: subtitle
+    label: Bio Subtitle Sections
     fields:
     - type: text
       name: green
-      label: green
+      label: Green text
+      description: All the text you place here will appear in green
     - type: text
       name: black
-      label: black
+      label: Black Text
+      description: This section of text will appear in the black / dark gray color
     - type: text
       name: purple
-      label: purple
+      label: Purple Text
+      description: This section of text will appear in purple
+    description: The subtitle is split into green, black and purple text. This is
+      the section where you can define each of those parts
   - type: text
     name: greenHeadline
-    label: greenHeadline
+    label: Green Bio Headline
+    description: 'The bio copy is split into 3 sections: a green headline, a purple
+      headline, and the full body copy'
   - type: text
     name: purpleHeadline
-    label: purpleHeadline
+    label: Purple Bio Headline
+    description: 'The bio copy is split into 3 sections: a green headline, a purple
+      headline, and the full body copy'
   - type: textarea
     name: bio
-    label: bio
+    label: Biography Body Copy
+    description: 'The bio copy is split into 3 sections: a green headline, a purple
+      headline, and the full body copy'
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: buttonURL
-    label: buttonURL
+    label: Button Link
+    default: "#contact"
+    description: This is the URL to the section of the page that this button should
+      scroll down to. It's currently set to the Contact form section
   - type: text
     name: buttonText
-    label: buttonText
+    label: Button Text
+    description: This is the text that appears as the prompt on the button
   - type: field_group
     name: social
-    label: social
+    label: Social Links
     fields:
     - type: field_group_list
       name: socialItems
@@ -50,35 +75,63 @@ fields:
       fields:
       - type: text
         name: icon
-        label: icon
+        label: Social Icon
+        description: 'You can embed any social icon you want to use by looking up
+          the shortcut text for it here: <a href="https://fontawesome.com/search?p=1&amp;q=social&amp;s=solid%2Cbrands"
+          title="" target="_blank">Font Awesome</a> (example: for Facebook use, <em>fa-brands
+          fa-facebook-square</em>)'
       - type: text
         name: link
-        label: link
+        label: Social Link
+        description: This is the link to your profile on the social platform you're
+          using
       - type: text
         name: target
         label: target
+        default: _blank
+        hidden: true
+    description: This is the collection of social icons and links you can add for
+      contact purposes
   - type: file
     name: bioPhoto
-    label: bioPhoto
+    label: Bio Photo
+    description: This is a photo of the most beautiful and magnificent woman in the
+      whole wide world! She's more perfect than anyone could imagine. Choose any photo
+      of her and you can't go wrong
   - type: field_group
     name: skills
-    label: skills
+    label: Skills Icon Collection
     fields:
     - type: file
       name: skill1
-      label: skill1
+      label: App Icon 1
+      description: This is the first icon, on the top left of the bio image
     - type: text
       name: alt1
-      label: alt1
+      label: App 1 Alt Text
+      description: This is the name of the app icon used for browsers to read and
+        for accessibility
     - type: file
       name: skill2
-      label: skill2
+      label: App Icon 2
+      description: This is the app icon that appears on the right site of the bio
+        photo
     - type: text
       name: alt2
-      label: alt2
+      label: App 2 Alt Text
+      description: This is the name of the app icon used for browsers to read and
+        for accessibility
     - type: file
       name: skill3
-      label: skill3
+      label: App Icon 3
+      description: This is the app icon that appears on the bottom left of the bio
+        photo
     - type: text
       name: alt3
-      label: alt3
+      label: App 3 Alt Text
+      description: This is the name of the app icon used for browsers to read and
+        for accessibility
+    description: This is the collection of app logos that float around the bio photo
+      to help illustrate capability and experience
+  description: Content collection that all appears at the top of the page in the bio
+    section
