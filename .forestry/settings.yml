@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/editor"
 webhook_url: 
 sections:
+- type: document
+  path: data/hero.yaml
+  label: Header Bio
+  match: "**/*"
 - type: heading
   label: Portfolio Content
 - type: document
