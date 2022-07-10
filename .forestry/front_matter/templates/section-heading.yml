@@ -1,0 +1,13 @@
+---
+label: Section Heading
+hide_body: true
+fields:
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: subheading
+  label: subheading
+- type: textarea
+  name: description
+  label: description

@@ -7,13 +7,12 @@ sections:
 - type: document
   path: data/portfolio/intro.yaml
   label: Portfolio Intro Content
-  match: "**/*"
 - type: directory
   path: data/portfolio/items
   label: Portfolio Items
   create: documents
   match: "**/*"
-  new_doc_ext: ".yaml"
+  new_doc_ext: yaml
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
