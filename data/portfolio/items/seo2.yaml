@@ -1,10 +1,15 @@
+---
 weight: 14
 filter: seo
 category: Content Optimization for SEO and UX
-class:
-link_url: "https://www.habitatgreenville.org/what-we-do/impact/family-stories"
-target: "_blank"
-image: "img/portfolio/2021-EOY-Twitter-Post-8.jpg"
-thumb: "img/thumbs/2021-EOY-Twitter-Post-8-thumb.jpg"
-title: "Habitat's Impact | Family Stories"
-subtitle: "Stability in housing builds stronger families."
+class: ''
+link_url: https://www.habitatgreenville.org/what-we-do/impact/family-stories
+target: _blank
+image: img/portfolio/2021-EOY-Twitter-Post-8.jpg
+thumb: img/thumbs/2021-EOY-Twitter-Post-8-thumb.jpg
+title: Habitat's Impact | Family Stories
+subtitle: Stability in housing builds stronger families.
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
