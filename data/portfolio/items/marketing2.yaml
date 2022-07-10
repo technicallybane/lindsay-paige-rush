@@ -6,7 +6,7 @@ class: zoom
 link_url: img/portfolio/GW-makeyourmark.pdf
 target: _blank
 image: img/thumbs/GW-makeyourmark-thumb.jpg
-thumb: img/thumbs/USC-ad-commsshapedhistory-thumb.jpg
+thumb: "/img/thumbs/GW-makeyourmark-thumb.jpg"
 title: Make Your Mark on Society.
 subtitle: The George Washington University
 content_blurb: false
