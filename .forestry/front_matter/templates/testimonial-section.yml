@@ -4,37 +4,62 @@ hide_body: true
 fields:
 - type: field_group
   name: intro
-  label: intro
+  label: Testimonial Section Intro Content
   fields:
   - type: text
     name: heading
-    label: heading
+    label: Section Heading
+    description: This is the orange headline text that defines this section
   - type: text
     name: subheading
-    label: subheading
+    label: Section Sub Heading
+    description: This is the secondary title to better define this section of content
   - type: textarea
     name: description
-    label: description
+    label: Description Text
+    description: This is the body copy content that goes just above each of the testimonial
+      items
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  description: This is the content that goes above each of the testimonial items
 - type: field_group
   name: item
-  label: item
+  label: Testimonial Item
   fields:
   - type: field_group_list
     name: inside
-    label: inside
+    label: Item Content
     fields:
     - type: number
       name: weight
-      label: weight
+      label: Sort Order
+      description: You can number each item to set what order they appear in
     - type: textarea
       name: text
-      label: text
+      label: Testimonial Text
+      description: This is the full content of the quote or testimonial that you received
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
     - type: text
       name: name
-      label: name
+      label: Name
+      description: This is the name of the person that is endorsing you
     - type: text
       name: relation
-      label: relation
+      label: Relation
+      description: This is the person's relationship to you
     - type: textarea
       name: image
-      label: image
+      label: Bio Image
+      description: This is an image that should appear along side the person's name.
+        Experimenting with pulling in the bio image directly from LinkedIn
+    description: Each testimonial will be built by a few content items all contained
+      in this collection
+    config:
+      labelField: name
+  description: You can add as many testimonials as you want and it will automatically
+    fill them into a carousel that people can swipe through
