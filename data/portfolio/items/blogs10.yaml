@@ -1,13 +1,15 @@
+---
 weight: 25
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://koniceklaworlando.com/florida-stepparent-adoption-laws/"
-target: "_blank"
-image: "img/portfolio/konicek-adoption-laws.jpg"
-thumb: "img/portfolio/konicek-adoption-laws.jpg"
-title: "Stepparent Adoption Laws"
+class: ''
+link_url: https://koniceklaworlando.com/florida-stepparent-adoption-laws/
+target: _blank
+image: img/portfolio/konicek-adoption-laws.jpg
+thumb: img/portfolio/konicek-adoption-laws.jpg
+title: Stepparent Adoption Laws
 subtitle: Konicek Law Orlando
 blurb:
   enabled: true
-  text: "Strengthen your family bond through the adoption process."
+  text: Strengthen your family bond through the adoption process.
+content_blurb: true
