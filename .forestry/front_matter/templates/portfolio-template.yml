@@ -4,41 +4,117 @@ hide_body: true
 fields:
 - type: number
   name: weight
-  label: weight
-- type: text
-  name: filter
-  label: filter
-- type: text
-  name: category
-  label: category
+  label: Sort Order
+  description: The higher the number, the further down the list this will appear.
+    Any items you want to appear toward the top when people sort by "All" make low
+    numbers (1-6)
+- name: filter
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - blogs
+    - marketing
+    - print
+    - seo
+    - video
+    - articles
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Portfolio Category
+  description: Which section of the portfolio should this item be assigned to?
+- name: category
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Marketing
+    - Published Articles
+    - SEO Blogs
+    - Print
+    - Content Optimization for SEO and UX
+    - Video Scripts
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category Full Name
+  description: This is the full descriptive name of the category you want this item
+    to belong to
 - type: text
   name: class
   label: class
+  showOnly:
+    field: filter
+    value: video
+  default: popup-vimeo
+  hidden: true
 - type: file
   name: link_url
-  label: link_url
-- type: text
-  name: target
-  label: target
+  label: Portfolio Link
+  description: Select the portfolio item you want displayed when someone clicks on
+    a thumbnail
+- name: target-
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - _blank
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Open in a new tab?
+  description: Select the <strong><em>_blank</em></strong> option to open PDFs and
+    external websites in a new tab
 - type: file
   name: image
-  label: image
+  label: Full Size Image
+  description: This is the full size portfolio item that will open when someone clicks
+    on the thumbnail
 - type: file
   name: thumb
-  label: thumb
+  label: Thumbnail Image
+  description: This can be a custom sized / edited image to serve as the thumbnail
+    for how this item will look in the portfolio gallery
 - type: text
   name: title
-  label: title
+  label: Item Title
+  description: This is the headline or title of the portfolio item
+  config:
+    required: true
 - type: text
   name: subtitle
-  label: subtitle
+  label: Item Subtitle
+  description: This is the descriptive text that appears under the headline. Usually
+    the name of who the work was done for
+  config:
+    required: true
+- name: content_blurb
+  type: boolean
+  label: Additional Content Blurb
+  description: Does this item have a third line of text to better describe the work?
 - type: field_group
   name: blurb
-  label: blurb
+  label: Content Blurb
   fields:
   - type: boolean
     name: enabled
     label: enabled
+    hidden: true
   - type: text
     name: text
-    label: text
+    label: Blurb Text
+    description: Enter any additional text to help support and describe this portfolio
+      item
+  showOnly:
+    field: content_blurb
+    value: true
