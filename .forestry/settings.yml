@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/hero.yaml
   label: Header Bio
-  match: "**/*"
 - type: heading
   label: Portfolio Content
 - type: document

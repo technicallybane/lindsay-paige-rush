@@ -1,0 +1,84 @@
+---
+label: Bio Section
+hide_body: true
+fields:
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: background
+    label: background
+  - type: field_group
+    name: subtitle
+    label: subtitle
+    fields:
+    - type: text
+      name: green
+      label: green
+    - type: text
+      name: black
+      label: black
+    - type: text
+      name: purple
+      label: purple
+  - type: text
+    name: greenHeadline
+    label: greenHeadline
+  - type: text
+    name: purpleHeadline
+    label: purpleHeadline
+  - type: textarea
+    name: bio
+    label: bio
+  - type: text
+    name: buttonURL
+    label: buttonURL
+  - type: text
+    name: buttonText
+    label: buttonText
+  - type: field_group
+    name: social
+    label: social
+    fields:
+    - type: field_group_list
+      name: socialItems
+      label: socialItems
+      fields:
+      - type: text
+        name: icon
+        label: icon
+      - type: text
+        name: link
+        label: link
+      - type: text
+        name: target
+        label: target
+  - type: file
+    name: bioPhoto
+    label: bioPhoto
+  - type: field_group
+    name: skills
+    label: skills
+    fields:
+    - type: file
+      name: skill1
+      label: skill1
+    - type: text
+      name: alt1
+      label: alt1
+    - type: file
+      name: skill2
+      label: skill2
+    - type: text
+      name: alt2
+      label: alt2
+    - type: file
+      name: skill3
+      label: skill3
+    - type: text
+      name: alt3
+      label: alt3
