@@ -1,6 +1,7 @@
 ---
-label: Portfolio Template
+label: Image & PDF Portfolio Template
 hide_body: true
+display_field: title
 fields:
 - type: number
   name: weight
@@ -53,14 +54,14 @@ fields:
   showOnly:
     field: filter
     value: video
-  default: popup-vimeo
+  default: zoom
   hidden: true
 - type: file
   name: link_url
   label: Portfolio Link
   description: Select the portfolio item you want displayed when someone clicks on
     a thumbnail
-- name: target-
+- name: target
   type: select
   default: ''
   config:
@@ -75,6 +76,7 @@ fields:
   label: Open in a new tab?
   description: Select the <strong><em>_blank</em></strong> option to open PDFs and
     external websites in a new tab
+  hidden: false
 - type: file
   name: image
   label: Full Size Image
