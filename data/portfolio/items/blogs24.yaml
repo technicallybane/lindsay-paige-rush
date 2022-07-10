@@ -1,13 +1,15 @@
+---
 weight: 38
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://www.rooftopservices.com/roofing-scams-educate/"
-target: "_blank"
-image: "img/portfolio/rooftop-roofing-scams.jpg"
-thumb: "img/portfolio/rooftop-roofing-scams.jpg"
-title: "Roofing Scams 101"
+class: ''
+link_url: https://www.rooftopservices.com/roofing-scams-educate/
+target: _blank
+image: img/portfolio/rooftop-roofing-scams.jpg
+thumb: img/portfolio/rooftop-roofing-scams.jpg
+title: Roofing Scams 101
 subtitle: Roof Top Services
 blurb:
   enabled: true
-  text: "Your biggest investment deserves protection."
+  text: Your biggest investment deserves protection.
+content_blurb: true
