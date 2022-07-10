@@ -1,11 +1,16 @@
+---
 intro:
   heading: Testimonials
   subheading: What People Say
-  description: Besides digging in and generating the best creative work I can, I'm pretty excited about building relationships too.
+  description: Besides digging in and generating the best creative work I can, I'm
+    pretty excited about building relationships too.
 item:
   inside:
   - weight: 1
-    text: "Lindsay is an energetic creative force bringing her whole self to every project. She is always ready for the next assignment and knocks it out of the park. Lindsay is talented at writing in a brand's voice and takes feedback like a pro. I highly recommend her!"
-    name: "Elizabeth H."
-    relation: "Colleague"
+    text: Lindsay is an energetic creative force bringing her whole self to every
+      project. She is always ready for the next assignment and knocks it out of the
+      park. Lindsay is talented at writing in a brand's voice and takes feedback like
+      a pro. I highly recommend her!
+    name: Elizabeth H.
+    relation: Colleague
     image: "//media-exp2.licdn.com/dms/image/C5603AQHM-R_69xI8cg/profile-displayphoto-shrink_100_100/0/1655936242555?e=1661385600&v=beta&t=clGYtWjEUzqjamcZh3wU1pYi5UE6PKfygH2zVDZFso8"

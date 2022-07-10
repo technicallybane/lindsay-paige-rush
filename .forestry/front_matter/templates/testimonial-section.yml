@@ -63,3 +63,5 @@ fields:
       labelField: name
   description: You can add as many testimonials as you want and it will automatically
     fill them into a carousel that people can swipe through
+pages:
+- data/testimonial.yaml
