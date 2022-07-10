@@ -1,10 +1,15 @@
+---
 weight: 14
 filter: print
 category: Print
-class:
-link_url: "img/portfolio/ASU-agreatjourney.pdf"
-target: "_blank"
-image: "img/portfolio/ASU-agreatjourney.png"
-thumb: "img/thumbs/ASU-agreatjourney-thumb.png"
-title: "All great journeys start with curiosity."
+class: zoom
+link_url: img/portfolio/ASU-agreatjourney.pdf
+target: _blank
+image: img/portfolio/ASU-agreatjourney.png
+thumb: img/thumbs/ASU-agreatjourney-thumb.png
+title: All great journeys start with curiosity.
 subtitle: ASU Online
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
