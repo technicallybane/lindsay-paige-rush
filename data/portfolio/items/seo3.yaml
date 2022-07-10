@@ -1,10 +1,15 @@
+---
 weight: 16
 filter: seo
 category: Content Optimization for SEO and UX
-class:
-link_url: "https://www.ccgsc.org/"
-target: "_blank"
-image: "img/portfolio/ChristChurch_043.jpg"
-thumb: "img/thumbs/ChristChurch_043-thumb.jpg"
-title: "Home | Christ Church Episcopal"
-subtitle: "Growing in faith. Rooted in community."
+class: ''
+link_url: https://www.ccgsc.org/
+target: _blank
+image: img/portfolio/ChristChurch_043.jpg
+thumb: img/thumbs/ChristChurch_043-thumb.jpg
+title: Home | Christ Church Episcopal
+subtitle: Growing in faith. Rooted in community.
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
