@@ -1,10 +1,15 @@
+---
 weight: 13
 filter: marketing
 category: Marketing
-class:
-link_url: "img/portfolio/socanyou-USC.pdf"
-target: "_blank"
-image: "img/portfolio/socanyou-USC.jpg"
-thumb: "img/thumbs/socanyou-USC.jpg"
-title: "Do more than lead the industry. Transform it."
+class: zoom
+link_url: img/portfolio/socanyou-USC.pdf
+target: _blank
+image: img/portfolio/socanyou-USC.jpg
+thumb: img/thumbs/socanyou-USC.jpg
+title: Do more than lead the industry. Transform it.
 subtitle: USC Annenberg
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
