@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: "/editor"
 webhook_url: 
 sections:
+- type: heading
+  label: Portfolio Content
 - type: document
   path: data/portfolio/intro.yaml
   label: Portfolio Intro Content
