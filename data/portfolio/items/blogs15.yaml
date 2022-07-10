@@ -1,13 +1,16 @@
+---
 weight: 30
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/choosing-best-program-transfer-credits/"
-target: "_blank"
-image: "img/portfolio/asu-how-to-choose.jpg"
-thumb: "img/portfolio/asu-how-to-choose.jpg"
-title: "How to Choose an Online College for Transfer Students"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/choosing-best-program-transfer-credits/
+target: _blank
+image: img/portfolio/asu-how-to-choose.jpg
+thumb: img/portfolio/asu-how-to-choose.jpg
+title: How to Choose an Online College for Transfer Students
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "A journey in higher education doesn’t always start and end with the same college or university."
+  text: A journey in higher education doesn’t always start and end with the same college
+    or university.
+content_blurb: true
