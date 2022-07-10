@@ -1,13 +1,15 @@
+---
 weight: 7
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "img/portfolio/Disney-on-a-Dime.pdf"
-target: "_blank"
-image: "img/portfolio/disney-on-a-dime-money-saving-tips.jpg"
-thumb: "img/portfolio/disney-on-a-dime-money-saving-tips.jpg"
-title: "Disney on a Dime"
+class: zoom
+link_url: img/portfolio/Disney-on-a-Dime.pdf
+target: _blank
+image: img/portfolio/disney-on-a-dime-money-saving-tips.jpg
+thumb: img/portfolio/disney-on-a-dime-money-saving-tips.jpg
+title: Disney on a Dime
 subtitle: Castle Travel Planners
 blurb:
   enabled: true
-  text: "Explore Disney—wallet not required."
+  text: Explore Disney—wallet not required.
+content_blurb: true
