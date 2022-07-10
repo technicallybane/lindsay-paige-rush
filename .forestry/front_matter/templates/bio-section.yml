@@ -135,3 +135,5 @@ fields:
       to help illustrate capability and experience
   description: Content collection that all appears at the top of the page in the bio
     section
+pages:
+- data/hero.yaml
