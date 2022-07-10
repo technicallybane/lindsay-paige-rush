@@ -1,5 +1,5 @@
 ---
-label: Image & PDF Portfolio Template
+label: Website & Link Portfolio Template
 hide_body: true
 display_field: title
 fields:
@@ -23,9 +23,9 @@ fields:
     - articles
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Portfolio Category
   description: Which section of the portfolio should this item be assigned to?
 - name: category
@@ -42,9 +42,9 @@ fields:
     - Video Scripts
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category Full Name
   description: This is the full descriptive name of the category you want this item
     to belong to
@@ -70,9 +70,9 @@ fields:
     - _blank
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Open in a new tab?
   description: Select the <strong><em>_blank</em></strong> option to open PDFs and
     external websites in a new tab
