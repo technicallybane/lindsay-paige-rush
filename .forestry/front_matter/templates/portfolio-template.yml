@@ -1,0 +1,44 @@
+---
+label: Portfolio Template
+hide_body: true
+fields:
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: filter
+  label: filter
+- type: text
+  name: category
+  label: category
+- type: text
+  name: class
+  label: class
+- type: file
+  name: link_url
+  label: link_url
+- type: text
+  name: target
+  label: target
+- type: file
+  name: image
+  label: image
+- type: file
+  name: thumb
+  label: thumb
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: field_group
+  name: blurb
+  label: blurb
+  fields:
+  - type: boolean
+    name: enabled
+    label: enabled
+  - type: text
+    name: text
+    label: text
