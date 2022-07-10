@@ -122,6 +122,7 @@ fields:
     field: content_blurb
     value: true
 pages:
+- data/portfolio/items/articles1.yaml
 - data/portfolio/items/blogs1.yaml
 - data/portfolio/items/blogs10.yaml
 - data/portfolio/items/blogs11.yaml
