@@ -1,10 +1,15 @@
+---
 weight: 11
 filter: articles
 category: Published Articles
-class:
-link_url: "img/portfolio/Maryville-gettinglost.pdf"
-target: "_blank"
-image: "img/portfolio/Maryville-gettinglost_Page.jpg"
-thumb: "img/thumbs/Maryville-gettinglost_Page-thumb.jpg"
-title: "Getting Lost"
+class: zoom
+link_url: img/portfolio/Maryville-gettinglost.pdf
+target: _blank
+image: img/portfolio/Maryville-gettinglost_Page.jpg
+thumb: img/thumbs/Maryville-gettinglost_Page-thumb.jpg
+title: Getting Lost
 subtitle: Maryville Magazine
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
