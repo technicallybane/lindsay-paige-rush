@@ -4,31 +4,52 @@ hide_body: true
 fields:
 - type: number
   name: weight
-  label: weight
+  label: Sort Order
+  description: You can customize where in the full gallery this item will appear.
+    Select a low number to make it appear higher in the list and a high number to
+    move it lower
 - type: text
   name: filter
   label: filter
+  default: video
+  hidden: true
 - type: text
   name: category
   label: category
+  default: Video Scripts
+  hidden: true
 - type: text
   name: class
   label: class
+  default: popup-vimeo
+  hidden: true
 - type: text
   name: link_url
-  label: link_url
+  label: Vimeo or YouTube URL
+  description: Copy &amp; paste the the URL to your video, either Vimeo or YouTube,
+    into this field
 - type: text
   name: target
   label: target
+  hidden: true
 - type: file
   name: image
-  label: image
+  label: Full Size Image
+  description: This is the full size of the portfolio item image. For videos, this
+    can be the same image as the thumbnail. I suggest taking a screenshot of the Vimeo
+    thumbnail and use that
 - type: file
   name: thumb
-  label: thumb
+  label: Thumbnail Image
+  description: This is the image that appears in the Portfolio gallery. You can make
+    this any size or dimension and the portfolio grid will fit it in
 - type: text
   name: title
-  label: title
+  label: Item Title
+  description: This is the headline or title text that appears in the Portfolio gallery
+    just below the thumbnail image
 - type: text
   name: subtitle
-  label: subtitle
+  label: Item Subtitle
+  description: This is the secondary text, usually the name of the organization that
+    the work was done for
