@@ -1,10 +1,15 @@
+---
 weight: 6
 filter: print
 category: Print
-class:
-link_url: "img/portfolio/Pearson-connectyourlearning.pdf"
-target: "_blank"
-image: "img/portfolio/pearson-advance-print.png"
-thumb: "img/thumbs/pearson-advance-thumb.png"
-title: "Connect your talent to curated learning."
+class: zoom
+link_url: img/portfolio/Pearson-connectyourlearning.pdf
+target: _blank
+image: img/portfolio/pearson-advance-print.png
+thumb: img/thumbs/pearson-advance-thumb.png
+title: Connect your talent to curated learning.
 subtitle: Pearson Advance B2B
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
