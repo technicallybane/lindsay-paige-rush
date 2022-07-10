@@ -53,3 +53,5 @@ fields:
   label: Item Subtitle
   description: This is the secondary text, usually the name of the organization that
     the work was done for
+pages:
+- data/portfolio/items/video2.yaml
