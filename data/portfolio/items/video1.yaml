@@ -1,10 +1,11 @@
+---
 weight: 3
 filter: video
 category: Video Scripts
 class: popup-vimeo
-link_url: "https://vimeo.com/290919177"
-target:
-image: "img/portfolio/hartford-south-script.jpg"
-thumb: "img/thumbs/hartford-south-script-thumb.jpg"
-title: "Rethink your roofing."
+link_url: https://vimeo.com/290919177
+target: ''
+image: img/portfolio/hartford-south-script.jpg
+thumb: img/thumbs/hartford-south-script-thumb.jpg
+title: Rethink your roofing.
 subtitle: Hartford South
