@@ -1,10 +1,15 @@
+---
 weight: 17
 filter: marketing
 category: Marketing
-class:
-link_url: "img/portfolio/ASU-makeyournextturndriving.pdf"
-target: "_blank"
-image: "img/portfolio/ASU-makeyournextturndriving.jpg"
-thumb: "img/thumbs/ASU-makeyournextturndriving-thumb.jpg"
-title: "Drive groundbreaking discoveries."
+class: zoom
+link_url: img/portfolio/ASU-makeyournextturndriving.pdf
+target: _blank
+image: img/portfolio/ASU-makeyournextturndriving.jpg
+thumb: img/thumbs/ASU-makeyournextturndriving-thumb.jpg
+title: Drive groundbreaking discoveries.
 subtitle: ASU Online
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
