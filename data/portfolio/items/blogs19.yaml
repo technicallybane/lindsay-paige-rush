@@ -1,13 +1,15 @@
+---
 weight: 34
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/college-tips-for-parents/"
-target: "_blank"
-image: "img/portfolio/asu-parenting-tips.jpg"
-thumb: "img/portfolio/asu-parenting-tips.jpg"
-title: "Tips for Parents Returning to Higher Education"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/college-tips-for-parents/
+target: _blank
+image: img/portfolio/asu-parenting-tips.jpg
+thumb: img/portfolio/asu-parenting-tips.jpg
+title: Tips for Parents Returning to Higher Education
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "We believe in your ability to shape a better world for you and your family."
+  text: We believe in your ability to shape a better world for you and your family.
+content_blurb: true
