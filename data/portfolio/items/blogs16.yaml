@@ -1,13 +1,16 @@
+---
 weight: 31
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/benefits-of-transferring-to-online-degree/"
-target: "_blank"
-image: "img/portfolio/asu-benefits-of-transferring.jpg"
-thumb: "img/portfolio/asu-benefits-of-transferring.jpg"
-title: "Benefits of Transferring to an Online Degree Program"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/benefits-of-transferring-to-online-degree/
+target: _blank
+image: img/portfolio/asu-benefits-of-transferring.jpg
+thumb: img/portfolio/asu-benefits-of-transferring.jpg
+title: Benefits of Transferring to an Online Degree Program
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "Each person’s path to graduation is unique, which makes a tailored online education so promising."
+  text: Each person’s path to graduation is unique, which makes a tailored online
+    education so promising.
+content_blurb: true
