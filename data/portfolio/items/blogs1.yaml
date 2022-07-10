@@ -1,13 +1,16 @@
+---
 weight: 5
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://www.dreamcretecc.com/blog/"
-target: "_blank"
-image: "img/portfolio/orlando-city-blog.png"
-thumb: "img/thumbs/orlando-city-blog-thumb.png"
-title: "Orlando City Soccer Stadium"
+class: ''
+link_url: https://www.dreamcretecc.com/blog/
+target: _blank
+image: img/portfolio/orlando-city-blog.png
+thumb: img/thumbs/orlando-city-blog-thumb.png
+title: Orlando City Soccer Stadium
 subtitle: DreamCrete Custom Creations
 blurb:
   enabled: true
-  text: "The thunderous applause of fans—now amplified in the new Orlando City Soccer stadium."
+  text: The thunderous applause of fans—now amplified in the new Orlando City Soccer
+    stadium.
+content_blurb: true
