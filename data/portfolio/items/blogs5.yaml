@@ -1,13 +1,15 @@
+---
 weight: 25
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/asu-online-news/sun-devils-innovate-paris-poors-stem-solution/"
-target: "_blank"
-image: "img/portfolio/asu-innovating-stem.jpg"
-thumb: "img/portfolio/asu-innovating-stem.jpg"
-title: "Innovativing STEM solutions"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/asu-online-news/sun-devils-innovate-paris-poors-stem-solution/
+target: _blank
+image: img/portfolio/asu-innovating-stem.jpg
+thumb: img/portfolio/asu-innovating-stem.jpg
+title: Innovativing STEM solutions
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "Student turns love of public service into award-winning innovation."
+  text: Student turns love of public service into award-winning innovation.
+content_blurb: true
