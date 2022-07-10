@@ -1,13 +1,15 @@
+---
 weight: 18
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://aestheticlane.com/services/"
-target: "_blank"
-image: "img/portfolio/AesLane.jpg"
-thumb: "img/portfolio/AesLane.jpg"
-title: "Skin Rejuvenation Services"
+class: ''
+link_url: https://aestheticlane.com/services/
+target: _blank
+image: img/portfolio/AesLane.jpg
+thumb: img/portfolio/AesLane.jpg
+title: Skin Rejuvenation Services
 subtitle: Aesthetic Lane
 blurb:
   enabled: true
-  text: "Explore the benefits of cosmetic products and services."
+  text: Explore the benefits of cosmetic products and services.
+content_blurb: true
