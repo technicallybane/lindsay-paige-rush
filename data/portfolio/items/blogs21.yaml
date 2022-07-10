@@ -1,13 +1,16 @@
+---
 weight: 36
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/tips-entering-workforce-after-graduation/"
-target: "_blank"
-image: "img/portfolio/asu-4-tips-workforce.jpg"
-thumb: "img/portfolio/asu-4-tips-workforce.jpg"
-title: "4 Tips for Entering the Workforce After Graduation"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/tips-entering-workforce-after-graduation/
+target: _blank
+image: img/portfolio/asu-4-tips-workforce.jpg
+thumb: img/portfolio/asu-4-tips-workforce.jpg
+title: 4 Tips for Entering the Workforce After Graduation
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "As you navigate your career, remain agile and be open to possibilities along the way."
+  text: As you navigate your career, remain agile and be open to possibilities along
+    the way.
+content_blurb: true
