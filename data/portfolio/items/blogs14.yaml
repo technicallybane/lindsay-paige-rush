@@ -1,13 +1,15 @@
+---
 weight: 29
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/first-generation-tips-for-success/"
-target: "_blank"
-image: "img/portfolio/asu-7-tips.jpg"
-thumb: "img/portfolio/asu-7-tips.jpg"
-title: "7 Tips for First-Generation College Student Success"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/first-generation-tips-for-success/
+target: _blank
+image: img/portfolio/asu-7-tips.jpg
+thumb: img/portfolio/asu-7-tips.jpg
+title: 7 Tips for First-Generation College Student Success
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "First-generation college students are trailblazing their future."
+  text: First-generation college students are trailblazing their future.
+content_blurb: true
