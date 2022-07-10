@@ -1,13 +1,15 @@
+---
 weight: 35
 filter: blogs
 category: SEO Blogs
-class:
-link_url: "https://asuonline.asu.edu/newsroom/online-learning-tips/reducing-stress-during-finals/"
-target: "_blank"
-image: "img/portfolio/asu-reduce-stress.jpg"
-thumb: "img/portfolio/asu-reduce-stress.jpg"
-title: "How to Reduce Stress During Finals"
+class: ''
+link_url: https://asuonline.asu.edu/newsroom/online-learning-tips/reducing-stress-during-finals/
+target: _blank
+image: img/portfolio/asu-reduce-stress.jpg
+thumb: img/portfolio/asu-reduce-stress.jpg
+title: How to Reduce Stress During Finals
 subtitle: ASU Online
 blurb:
   enabled: true
-  text: "Find balance and build resilience — and stay strong under pressure."
+  text: Find balance and build resilience — and stay strong under pressure.
+content_blurb: true
