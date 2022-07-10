@@ -1,10 +1,15 @@
+---
 weight: 20
 filter: marketing
 category: Marketing
 class: zoom
-link_url: "img/portfolio/Norwich-defineyourcareer.jpg"
-target:
-image: "img/portfolio/Norwich-defineyourcareer.jpg"
-thumb: "img/thumbs/Norwich-defineyourcareer.jpg"
-title: "You know what defines our nation. Now define your career."
+link_url: img/portfolio/Norwich-defineyourcareer.jpg
+target: ''
+image: img/portfolio/Norwich-defineyourcareer.jpg
+thumb: img/thumbs/Norwich-defineyourcareer.jpg
+title: You know what defines our nation. Now define your career.
 subtitle: Norwich University
+content_blurb: false
+blurb:
+  enabled: false
+  text: ''
