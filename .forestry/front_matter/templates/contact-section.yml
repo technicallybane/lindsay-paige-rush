@@ -4,50 +4,74 @@ hide_body: true
 fields:
 - type: text
   name: heading
-  label: heading
+  label: Section Title
+  description: Orange headline text that defines the section
 - type: text
   name: subheading
-  label: subheading
+  label: Section Sub Heading
+  description: This is the subtitle to help define the section
 - type: text
   name: text
-  label: text
+  label: Intro Text
+  description: Body copy to say a little more about the section
 - type: field_group
   name: elements
-  label: elements
+  label: Social Contact Icons and Links
   fields:
   - type: text
     name: orangeIcon
-    label: orangeIcon
+    label: Orange Background Icon
+    description: 'Select a social icon you''d like to use from this list at <a href="https://fontawesome.com/search?s=brands"
+      title="" target="_blank">Font Awesome</a> (example: to use LinkedIn copy and
+      paste, <em>fa-brands fa-linkedin</em>)'
   - type: text
     name: orangeTitle
-    label: orangeTitle
+    label: Title Text
+    description: This is the text that goes along with the icon in the orange background
   - type: text
     name: orangeSubtitle
-    label: orangeSubtitle
+    label: Subtitle Text
+    description: This is the subtitle that goes with the icon in the orange background
   - type: text
     name: greenIcon
-    label: greenIcon
+    label: Green Background Icon
+    description: 'Select a social icon you''d like to use from this list at <a href="https://fontawesome.com/search?s=brands"
+      title="" target="_blank">Font Awesome</a> (example: to use LinkedIn copy and
+      paste, <em>fa-brands fa-linkedin</em>)'
   - type: text
     name: greenTitle
-    label: greenTitle
+    label: Title Text
+    description: This is the title text associated with the icon in the green background
   - type: text
     name: greenSubtitle
-    label: greenSubtitle
+    label: Subtitle Text
+    description: This is the subtitle associated with the icon in the green background
   - type: text
     name: greenLink
-    label: greenLink
+    label: Link URL
+    description: This is the URL to the social platform you're linking to for this
+      section
   - type: text
     name: purpleIcon
-    label: purpleIcon
+    label: Purple Background Icon
+    description: 'Select a social icon you''d like to use from this list at <a href="https://fontawesome.com/search?s=brands"
+      title="" target="_blank">Font Awesome</a> (example: to use LinkedIn copy and
+      paste, <em>fa-brands fa-linkedin</em>)'
   - type: text
     name: purpleTitle
-    label: purpleTitle
+    label: Title Text
+    description: This is the title text associated with the icon in the purple background
   - type: text
     name: purpleSubtitle
-    label: purpleSubtitle
+    label: Subtitle Text
+    description: This is the subtitle associated with the icon in the purple background
   - type: text
     name: purpleLink
-    label: purpleLink
+    label: Link URL
+    description: This is the URL to the social platform or email address you're linking
+      to
+  description: This is the collection of icons, links, and text for contact content
 - type: text
   name: buttonText
-  label: buttonText
+  label: Button Text
+  description: This is the text on the contact form button
