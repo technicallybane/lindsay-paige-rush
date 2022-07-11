@@ -75,3 +75,5 @@ fields:
   name: buttonText
   label: Button Text
   description: This is the text on the contact form button
+pages:
+- data/contact.yaml
