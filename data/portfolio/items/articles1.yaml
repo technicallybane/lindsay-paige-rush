@@ -6,7 +6,7 @@ class: ''
 link_url: https://upcity.com/experts/drowning-data-importance-data-aggregators/
 target: _blank
 image: img/portfolio/UpCity-article.jpg
-thumb: img/thumbs/UpCity-article-thumb.jpg
+thumb: "/img/thumbs/UpCity-article-thumb.jpg"
 title: Drowning in Data
 subtitle: Upcity
 content_blurb: false
