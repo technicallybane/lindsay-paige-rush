@@ -1,0 +1,53 @@
+---
+label: Contact Section
+hide_body: true
+fields:
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: subheading
+  label: subheading
+- type: text
+  name: text
+  label: text
+- type: field_group
+  name: elements
+  label: elements
+  fields:
+  - type: text
+    name: orangeIcon
+    label: orangeIcon
+  - type: text
+    name: orangeTitle
+    label: orangeTitle
+  - type: text
+    name: orangeSubtitle
+    label: orangeSubtitle
+  - type: text
+    name: greenIcon
+    label: greenIcon
+  - type: text
+    name: greenTitle
+    label: greenTitle
+  - type: text
+    name: greenSubtitle
+    label: greenSubtitle
+  - type: text
+    name: greenLink
+    label: greenLink
+  - type: text
+    name: purpleIcon
+    label: purpleIcon
+  - type: text
+    name: purpleTitle
+    label: purpleTitle
+  - type: text
+    name: purpleSubtitle
+    label: purpleSubtitle
+  - type: text
+    name: purpleLink
+    label: purpleLink
+- type: text
+  name: buttonText
+  label: buttonText

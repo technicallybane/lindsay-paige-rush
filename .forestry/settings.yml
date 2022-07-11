@@ -28,7 +28,6 @@ sections:
 - type: document
   path: data/contact.yaml
   label: Contact Intro Content
-  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
